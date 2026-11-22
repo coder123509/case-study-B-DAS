@@ -1,0 +1,9 @@
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+openpyxl>=3.1
+requests>=2.31
+pymysql>=1.1        # only for src/09_load_mysql.py with a real MySQL server
+pyspark>=3.4        # only for spark/spark_resample_join.py (needs Java 11 or 17)
+# also needed outside pip:
+#   pdftotext (poppler)  -> conda install -c conda-forge poppler   (for src/05_parse_waterlogging.py)

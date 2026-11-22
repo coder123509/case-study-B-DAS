@@ -1,0 +1,192 @@
+wl_id,zone,severity,sl_no,name,lat,lon,buffer_m,remarks_raw
+1,East,severe,1,Nanada gokula,13.0436111,77.6280556,150,Adjacent SWD have been De-silted
+2,East,severe,2,HRBR Lyt.,13.0188889,77.6347222,150,Adjacent SWD have been De-silted
+3,East,severe,3,HBR Lyt.,13.0391667,77.6380556,200,Adjacent SWD have been De-silted       878.000
+4,East,severe,4,Veerannapalya,13.0411111,77.6122222,150,Carle building obstruction.        890.000
+5,East,severe,5,Broadway road junction,12.9863889,77.6041667,100,899.000
+6,East,moderate,1,Armstrong road junction in Shivajinagr,12.9863889,77.6102778,150,895.000
+7,East,moderate,2,MV garden & Murphy market,12.9783333,77.6272222,100,885.000
+8,East,moderate,3,Jougupalya in Ulsoor,12.9716667,77.6333333,150,883.000
+9,East,moderate,4,Cambridge layout (Near Jogupalya),12.9708333,77.6336111,150,883.000
+10,East,moderate,5,Nandhini hotel backside on 100 feet road indiranagar,12.9611111,77.6430556,150,881.000
+11,East,moderate,6,Kalyananagar,13.0088889,77.6369444,200,
+12,East,moderate,7,BDA Layout in ward ni 113 Konena Agrahara,12.8608333,77.6577778,150,886.000
+13,East,moderate,8,Railway parallel road Sadanadanagar,12.9947222,77.6588889,150,896.000
+14,East,moderate,9,Jala Dharshani Layout in ward no.18 of Hebbal constituency.,13.0247222,77.5825,180,Adjacent SWD have been De-silted       901.000
+15,East,moderate,10,Vasanthappa block in ward no.20 of Hebbal constituency.,13.0255556,77.5722222,180,Adjacent SWD have been De-silted       904.000
+16,East,moderate,11,A Block in ward no.20 of Hebbal constituency.,13.0333333,77.5902778,180,Adjacent SWD have been De-silted       905.000
+17,East,moderate,12,Sun Rise colony in ward no.22 of Hebbal constituency.,13.0355556,77.5972222,180,Adjacent SWD have been De-silted       901.000
+18,East,moderate,13,Upstreams of Devi nagar (junction of Ring road and railway track) in ward no.18 of Hebbal constituency.,13.0466667,77.5708333,180,Adjacent SWD have been De-silted       904.000
+19,East,moderate,14,Near Shani mahathma temple beside Hebbal Fly over in ward no.21 of Hebbal constituency.,13.0425,77.5913889,180,Adjacent SWD have been De-silted       900.000
+20,East,moderate,15,Low Laying areas of Chamundi nagar in ward no.33 of Hebbal constituency,13.0333333,77.6002778,180,Adjacent SWD have been De-silted       902.000
+21,West,severe,1,"Rajajinagar Industrial Area ,1st Cross Rd Ward No 108",12.9841167,77.5460639,100,Work Tackled to avoid flooding       890.000
+22,West,severe,2,Cheluvadipalya Near by GoodShed Road Ward No 138,12.9653167,77.566525,100,and desilting work is in Progress by   894.000
+23,West,severe,4,Binnymill Road Ward No 120 near belimath,12.9765972,77.5673472,100,898.000
+24,West,severe,5,K P Agrahara 7th Cross Road Ward No 121,12.9726194,77.5628833,100,887.000
+25,West,moderate,1,Near Mantri Mall bridge in ward no-94,12.9913278,77.5705639,100,889.000
+26,West,moderate,2,Gopalpura area drain v-108 in ward no 121,12.9752167,77.5604167,100,885.000
+27,West,moderate,3,Sandeep bar in ward no-75,13.0035667,77.5290472,50,857.000
+28,West,moderate,4,Kemegowda bridge in ward no 74/75,13.0041167,77.5294917,50,859.000
+29,West,moderate,5,17th and 19th main in kamalanagar in ward-75,13.004175,77.5293167,50,858.000
+30,West,moderate,6,40-vent bridge in ward no-75,13.0044056,77.5290944,100,858.000
+31,West,moderate,7,near ward office 43 ( circular road) drain v-205,13.0095111,77.5355278,50,875.000
+32,West,moderate,8,down stream of laggere bridge (sakamma badavane)in ward no 43,13.0109528,77.5280639,50,877.000
+33,West,moderate,9,junction of v-200 & v-202 in ward no. -43/75.,13.0058639,77.5300417,50,862.000
+34,West,moderate,10,"Guttahalli Circle, Malleshwaram.",12.9974139,77.5780417,50,905.000
+35,West,moderate,11,"Gandi Statue, Vokkalipuram.",12.98345,77.565525,100,Work Tackled to avoid flooding         886.000
+36,West,moderate,13,"Link Road, Malleshwaram.",12.9960139,77.5733833,50,Tender Called                 895.000
+37,West,moderate,16,Near bescom office mattikere in ward no. -36,13.0367361,77.5567056,100,907.000
+38,West,moderate,17,near yashavanthpur TTMC in ward no. -45,13.0250306,77.534025,50,909.000
+39,West,moderate,18,Near summanahalli bridge(up stream) in ward no-,12.984675,77.5189389,100,Already tackled no flood occurred     849.000
+40,West,moderate,19,1st main road bridge down stream in ward no-74,13.001,77.5278778,50,Already tackled no flood occurred     850.000
+41,West,moderate,20,Jai maruthi nagar and nandhini layout bridge ( u and doen stream) in ward no 43/66,13.0017556,77.5325528,50,877.000
+42,West,moderate,21,NGEF Layout in ward no.128,12.9590583,77.5085389,100,828.000
+43,West,moderate,22,"Kalyan Nagar , Moodalapalya, Ward 127",12.9711694,77.5186556,50,833.000
+44,West,moderate,23,Netaji Nagara in ward no.120 KP Agrahara,12.9764556,77.5621028,100,888.000
+45,West,moderate,24,Nagamma nagara Near binny mill road,12.98,77.5697722,50,901.000
+46,West,moderate,25,"Netaji ground & Saneguruvanalli, Ward 100",12.9908722,77.54405,100,902.000
+47,West,moderate,26,"Srirammandir ward.108, Gubbanna Industrial Estate",12.9875639,77.5592972,100,Work Tackled to avoid flooding       897.000
+48,West,moderate,27,Prakashnagar Near mudalayar Choultry,12.9934833,77.5571667,100,902.000
+49,West,moderate,28,Nayandahalli ward.131 and near Railway track,12.9446528,77.5255861,50,Work Tackled to avoid flooding       895.000
+50,West,moderate,30,Munikrishnappa layout area of kaveripura in ward No.103,13.0033056,77.5636111,100,919.000
+51,West,moderate,31,"Rayapuram near Govt Maternity Hospital, Ward",12.9658833,77.5526194,50,878.000
+52,West,moderate,32,Chamarajapet Ward 140,12.9570389,77.5620833,100,Culvert Work Under Progress          894.000
+53,West,moderate,33,"Nari Halla, Ward 141",12.9572417,77.5686806,100,Already tackled no flood occurred     896.000
+54,South,severe,1,"Sri Galianjaneya swamy temple, Mysore road",12.9530351,77.5412528,70,Periodical desilting to be done
+55,South,severe,2,"Kempapura Agrahara Secondary Drain, Magadi road",12.9722476,77.5541086,40,RCC Retaining wall to be constructed
+56,South,severe,3,"Nayandahalli Junction, Mysore road",12.9454803,77.5289368,80,Periodical desilting to be done
+57,South,moderate,1,Kavika Bridge to Nice road bridge,12.9505685,77.5385974,60,RCC Retaining wall to be constructed
+58,South,moderate,2,Vrishabhavthi main valley near Cholurapalya in ward 123,12.9684047,77.549697,40,RCC Retaining wall to be constructed
+59,South,moderate,3,"Manuvana, Pipeline road",12.9737296,77.5466514,30,Bend pipe to be provided
+60,South,moderate,4,Ranganatha Colony in W 158,12.9453019,77.5350696,70,RCC Retaining wall to be constructed
+61,South,moderate,5,"Hosaguddadahalli, Bapujinagara",12.9563166,77.5425798,50,Bend pipe to be provided
+62,South,moderate,6,"Hosakere halli, near D'souza Nagara",12.9320232,77.5353228,40,RCC Retaining wall to be constructed
+63,South,moderate,7,"Near Dattarthraya Temple, Hosakerehalli",12.9246956,77.53913325,50,RCC Retaining wall to be constructed
+64,K-Valley,severe,1,"Bannerghatta Road near spar super market, no shoulder drain to rsd",12.93025,77.6010278,100,Shoulders drains to be provided.
+65,K-Valley,severe,2,"Bannerghatta Road near oakyard Apartment, because choked Rsd",12.9216944,77.5999444,50,RSD to be desilted
+66,K-Valley,severe,3,Hosur road Jayadeva flyover to Udupi Garden Signal due to choked Rsd.,12.9164722,77.5998889,200,RSD to be desilted
+67,K-Valley,severe,4,SILK BOARD due to choked Rsd and shoulder drain Sony Signal to Maharaja signal in Koramangala,12.9186389,77.6218889,100,RSD to be desilted
+68,K-Valley,severe,5,due Rsd work and Choked Rsd and shoulder,12.9368889,77.6264167,500,
+69,K-Valley,severe,6,drains. Magrath road and brigade road junction,12.9706111,77.6096667,100,RSD to be linked at SWD near HM Towers
+70,K-Valley,severe,7,Anepalya Gajendranagar SWD surroundings,12.9519444,77.6059444,200,RSD bed level in same level as SWD
+71,K-Valley,severe,8,Kumbargundi lead off drains,12.9624167,77.5839722,100,RSD bed level in same level as SWD
+72,K-Valley,severe,9,Siddpaura gate,12.9463056,77.5896389,50,RSD bed level in same level as SWD
+73,K-Valley,severe,10,Wilson garden PWD quarters,12.9529722,77.5968333,100,RSD bed level in same level as SWD
+74,K-Valley,moderate,1,Palm grove road,12.9637222,77.6146389,20,
+75,K-Valley,moderate,2,JK Pura,12.9511667,77.599,15,RSD bed level in same level as SWD
+76,K-Valley,moderate,3,Micheal church,12.9561389,77.5970278,10,RSD not working.
+77,K-Valley,moderate,4,Gulbarga Calony RBI extension.,12.9319167,77.5939167,25,RSD to be desilted
+78,K-Valley,moderate,5,Anepalya junction,12.951,77.6056111,75,
+79,K-Valley,moderate,6,Kumbaragundi,12.9621111,77.5828056,25,RSD bed level in same level as SWD
+80,K-Valley,moderate,7,Byrasandara Fire station,12.9329444,77.5889722,15,RSD to be desilted
+81,K-Valley,moderate,8,Osaman Khan Road Near KR Market,12.963,77.5798056,25,RSD to be desilted
+82,K-Valley,moderate,9,BTM layout,12.91575,77.61675,50,RSD to be desilted
+83,K-Valley,moderate,10,RV Teachers College,12.9435833,77.5814722,10,RSD bed level lower than SWD bed level
+84,K-Valley,moderate,11,Tavarkere Main road.,12.9249444,77.6090278,20,
+85,K-Valley,moderate,12,Silk Board junction,12.9171944,77.6227222,100,
+86,K-Valley,moderate,13,Navoduya Layout,12.9140556,77.5749167,100,
+87,K-Valley,moderate,14,RAJENDRA NAGARA slum opp kpwd quarters,12.9478611,77.6191944,50,RSD bed level in same level as SWD
+88,K-Valley,moderate,15,Ejipura opp army land,12.9503889,77.6258889,25,
+89,K-Valley,moderate,16,Ejpura ashwini layout,12.9386389,77.62875,50,
+90,K-Valley,moderate,17,ST BED KORAMANGALA,12.9347222,77.6301389,50,
+91,K-Valley,moderate,18,Koramangala 4 th block,12.9338056,77.6303889,500,
+92,K-Valley,moderate,19,Gurappanapalya banneragatta main road,12.923,77.6004444,50,RSD to be desilted
+93,Yelahanka,severe,1,Kariyannapalya Bridge over flowed ORR,13.0436111,77.6002778,700,Adjacent SWD have been De-silted           888.000
+94,Yelahanka,severe,2,Near Rachanahalli lake inlet over flow due to let out of BWSSB,13.0577778,77.6147222,1000,Adjacent SWD have been De-silted         886.000
+95,Yelahanka,severe,3,Lbs nagar Yelahanka,13.0925,77.5936111,300,Adjacent SWD have been De-silted         904.000
+96,Yelahanka,severe,4,Veerannapaly drain near Manpho convention center.,13.0425,77.6155556,850,Adjacent SWD have been De-silted         890.000
+97,Yelahanka,moderate,1,"Kariyannapalya outer ring road,w.no.7 near varun motors see H100.",13.0430556,77.5988889,250,Adjacent SWD have been De-silted         888.000
+98,Yelahanka,moderate,2,"H 183 manyata tech park, m.s.ranaiah north city to element mall.in ward no.6",13.0472222,77.6236111,650,Adjacent SWD have been De-silted         888.000
+99,Yelahanka,moderate,3,"TATA nagar 8th cross, inward no.8",13.055,77.5716667,300,Adjacent SWD have been De-silted         897.000
+100,Yelahanka,moderate,4,Thindlu to doddabommasandra tank. In ward no.9,13.0691667,77.5627778,500,Adjacent SWD have been De-silted         903.000
+101,Yelahanka,moderate,5,H200 from esteem mall beside dhobi that to yogesh nagar bridge in ward no.7,13.0472222,77.5933333,250,Adjacent SWD have been De-silted         892.000
+102,Yelahanka,moderate,6,Kondappa layout in Ward no.2,13.1102778,77.5933333,300,Adjacent SWD have been De-silted        898.000
+103,Yelahanka,moderate,7,Kogilu cross behind Udupi Grand hotel in Ward no.1,13.1030556,77.6011111,450,"less, proposed to widen the nala under    893.000"
+104,Mahadevapura Constituency,severe,1,Sarjapuraroad,12.73142,77.727188,50,Adjacent SWD have been De-silted
+105,Mahadevapura Constituency,severe,2,Gunjur,12.92109,77.732498,50,Adjacent SWD have been De-silted
+106,Mahadevapura Constituency,severe,3,Varthur,12.95694,77.735939,50,Adjacent SWD have been De-silted
+107,Mahadevapura Constituency,severe,4,Panathur,12.936355,77.705013,50,Adjacent SWD have been De-silted
+108,Mahadevapura Constituency,severe,5,Balagere,12.938932,77.723178,50,Adjacent SWD have been De-silted
+109,Mahadevapura Constituency,severe,6,Hoodi,12.992015,77.718137,50,Adjacent SWD have been De-silted
+110,Mahadevapura Constituency,moderate,2,1     Munnekolalu Pattandur agrahara,12.978889,77.733753,50,Adjacent SWD have been De-silted
+111,Mahadevapura Constituency,moderate,3,Ddoddenakundi near gururaja layout,12.969066,77.692178,50,Adjacent SWD have been De-silted
+112,Mahadevapura Constituency,moderate,4,Maheshwari nagar,12.99492,77.692871,50,Adjacent SWD have been De-silted
+113,Mahadevapura Constituency,moderate,5,Bellandur,12.926464,77.678116,50,Adjacent SWD have been De-silted
+114,Mahadevapura Constituency,moderate,6,S G R dental college,12.949943,77.700679,50,Adjacent SWD have been De-silted
+115,Mahadevapura Constituency,moderate,7,varthur columbia asia hospital,13.014108,77.556049,50,Adjacent SWD have been De-silted
+116,Mahadevapura Constituency,moderate,8,varthur police station,12.938078,77.746844,50,Adjacent SWD have been De-silted
+117,Mahadevapura Constituency,moderate,9,Ramagondanahalli,13.112929,77.556933,50,Adjacent SWD have been De-silted
+118,Mahadevapura Constituency,moderate,10,Vinayaka layout orr,12.949595,77.487694,50,Adjacent SWD have been De-silted
+119,Mahadevapura Constituency,moderate,11,Beml layout,12.911066,77.512709,50,Adjacent SWD have been De-silted
+120,Mahadevapura Constituency,moderate,12,Deepa nursing home,12.955021,77.690549,50,Adjacent SWD have been De-silted
+121,Mahadevapura Constituency,moderate,13,Nellurahalli,12.9693,77.736686,50,Adjacent SWD have been De-silted
+122,Mahadevapura Constituency,moderate,14,Thubarahalli,12.955652,77.720545,50,Adjacent SWD have been De-silted
+123,Kr Puram Constituency,severe,1,Pai Layout,12.9902778,77.6683333,100,887
+124,Kr Puram Constituency,severe,2,Ambedkar Nagar near Ramamurthy Nagar.,13.0108333,77.6813889,200,Because of closed box drain.           888
+125,Kr Puram Constituency,severe,3,RR layout & Ambedkar Nagar,13.0066667,77.6722222,150,Low laying area                   898
+126,Kr Puram Constituency,severe,4,Vaddera Palya (Railway track),13.0427778,77.6447222,300,877
+127,Kr Puram Constituency,severe,5,Talakaveri layout,12.9663889,77.6827778,150,877
+128,Kr Puram Constituency,moderate,1,ITI Layout,13.0105556,77.6802778,150,890
+129,Kr Puram Constituency,moderate,2,Koudenahalli (Ramamurthy Nagar main road),13.0113889,77.6791667,200,889
+130,Kr Puram Constituency,moderate,3,Hoysala nagar in Hormavu,13.0186111,77.6655556,250,No lead of drain due to buildings
+131,Kr Puram Constituency,moderate,4,Devasandra(Nethravathi Badavane),13.0066667,77.6963889,200,Low laying area.(Slum)
+132,Kr Puram Constituency,moderate,5,Shivaganga layout,12.9888889,77.6902778,250,883
+133,Kr Puram Constituency,moderate,6,NRI layout,13.0127778,77.6788889,200,Due to smallerdiverted box drain.        896
+134,Kr Puram Constituency,moderate,7,Richi's Garden,13.0366667,77.6811111,150,Encroachment.                   889
+135,Bommanahalli,severe,1,HSR 3rd sector lead off drains and no shoulder drains,12.909359,77.641585,150,RSD have to be desilted
+136,Bommanahalli,severe,2,Sector 6 lead off drains surrounding 5th and 9th main,12.911655,77.632402,200,RSD have to be desilted
+137,Bommanahalli,severe,3,NS palya RSD not desilted from 3 years,12.904903,77.603036,100,RSD/Ward drains have to be desilted
+138,Bommanahalli,severe,4,HSR sector 2 Garden layout RSD blocked,12.909073,77.644933,100,RSD have to be linked to SWD
+139,Bommanahalli,severe,5,Garebhavipalya NH service road junction,12.900922,77.633121,100,SWD construction in progress
+140,Bommanahalli,severe,6,BDA layout Hulimavu,12.880518,77.603987,100,RSD have to be linked to SWD
+141,Bommanahalli,severe,7,Kempamma layout RSD Arekere,12.880586,77.604415,200,RSD have to be linked to SWD
+142,Bommanahalli,severe,8,Someshwara layout Arekere,12.879969,77.604051,100,RSD have to be linked to SWD
+143,Bommanahalli,severe,9,Anugraha layout RSD phase 1,12.901886,77.611262,250,RSD have to be linked to SWD
+144,Bommanahalli,severe,10,Doddakanneli,12.897817,77.692907,200,RSD have to be linked to SWD
+145,Bommanahalli,severe,11,"Hosur road near Royal Enfield show room, white s hall",12.885937,77.642075,50,RSD have to be linked to SWD
+146,Bommanahalli,severe,12,singasandra Country club road ward 191,12.878907,77.637418,100,RSD have to be linked to SWD
+147,Bommanahalli,moderate,2,Oxford college NH Junction,12.90136,77.631443,300,-
+148,Bommanahalli,moderate,3,Hongasandara Ambedkar Nagar,12.904782,77.626758,300,
+149,Bommanahalli,moderate,5,Dollars Colony JP Nagar,12.903331,77.598853,100,Court by Vaishnavi Terrace Apartment
+150,Bommanahalli,moderate,6,Dollars Colony NS palya(BTM 2nd stage),12.904455,77.602807,200,
+151,Bommanahalli,moderate,7,Hulimavu Sri Lanka colony,12.881756,77.608253,150,
+152,Swd Rr Nagara,severe,1,Ward non160 RR nagar beml 5th stage near kapi katte hotel,12.9164333,77.5208833,250,"M          Remodelling work approved, tender has"
+153,Swd Rr Nagara,severe,2,Ward no.38 peenya industrial area 3rd phase 1 st main road,13.0330972,77.5201417,500,M
+154,Swd Rr Nagara,severe,3,Ward no.160 near DIAT college,12.9315917,77.5129917,500,M            Adjacent SWD have been De-silted
+155,Swd Rr Nagara,severe,1,YPR CONSTITUENCY Pattanagere main road beside r v college,12.923679,77.504071,250,M             Already tackled no flood occurred
+156,Swd Rr Nagara,severe,2,Andanappa layout doddabidarakallu,13.039565,77.488025,200,M             Already tackled no flood occurred
+157,Swd Rr Nagara,severe,3,Bhavani nagara doddabidarakallu,13.033788,77.490534,250,M                   Taken under CMNNY
+158,Swd Rr Nagara,severe,4,Herohalli lake inlet handrahalli main road,12.990491,77.489889,200,M             Already tackled no flood occurred
+159,Swd Rr Nagara,severe,5,Mallathahalli lake inlet muddaiahna palya road,12.962212,77.491921,200,M             Already tackled no flood occurred
+160,Swd Rr Nagara,moderate,4,3    VV Puram Law College to Mallathhali tank Gurudutta Layout to Sapthagiri Layout in ward,12.9247111,77.541875,300,M           Adjacent SWD have been De-silted
+161,Swd Rr Nagara,moderate,5,Shankarappa Layout to BEML gate R.R.Nagara,12.9164056,77.5225556,200,M           Adjacent SWD have been De-silted
+162,Swd Rr Nagara,moderate,6,"Jawaregowdana Doddi, Bangarappa Nagara",12.9285694,77.5203306,500,M           Adjacent SWD have been De-silted
+163,Swd Rr Nagara,moderate,7,Malagala main road to Vrishabhavathi Valley Basaveshwara Circle BEML 3rd stage in ward,12.96595,77.5174889,500,M           Adjacent SWD have been De-silted
+164,Swd Rr Nagara,moderate,9,no.160 Gurudutta Layout to Sapthagiri Layout in ward,12.9247111,77.5390972,300,M           Adjacent SWD have been De-silted
+165,Swd Rr Nagara,moderate,10,Halagevadeyarahalli lake to Kenchenahalli lake in ward no 160,12.9248167,77.5215556,300,M             Already tackled no flood occurred
+166,Swd Rr Nagara,moderate,11,Lavakushanagara to Vrishabhavathi Valley,13.2543139,77.5173889,500,M
+167,Swd Rr Nagara,moderate,13,Bande Maramma Temple behind Nagarabhavi 10th cross Bus Stop,12.9657028,77.5173944,300,M
+168,Swd Rr Nagara,moderate,14,Near Tippena Halli Govt. School,13.036639,77.487364,300,M                   Taken under CMNNY
+169,Swd Rr Nagara,moderate,17,Horanadu Annapurneshwari Layout Doddabidirukallu,13.021657,77.484496,300,M                   Taken under CMNNY
+170,Swd Rr Nagara,moderate,18,Ambedkar Nagara Ullala,12.963815,77.478921,300,M                   Taken under CMNNY
+171,Swd Rr Nagara,moderate,19,Dubasipalya Tank,12.926779,77.4954,300,M             action to be taken by lakes division
+172,Swd Rr Nagara,moderate,20,Bande Matta Kengeri,12.918535,77.477999,500,M                   Taken under CMNNY
+173,Swd Rr Nagara,moderate,21,Mysore Road Kengeri Satellite Town Main Road,12.905953,77.478994,300,M                   Taken under CMNNY
+174,Swd Rr Nagara,moderate,22,Vijayashri Layout,12.913417,77.490779,200,M                   Taken under CMNNY
+175,Swd Rr Nagara,moderate,23,Vishva Vakkaligara Maha Samsthana Mysore road,12.901002,77.466559,500,M          action will be taken by NHAI & BMRCL
+176,Swd Rr Nagara,moderate,24,Kempegowda nagar Ward,12.989302,77.483394,200,M
+177,Swd Rr Nagara,moderate,25,Balaji Layout Ward 198 Kanakapura Road,12.876393,77.538538,300,M                   Taken under CMNNY
+178,Swd Rr Nagara,moderate,26,Mantri Lake view Appartment Next to Talagattapura Lake,12.860256,77.527756,300,M                   Taken under CMNNY
+179,Swd Rr Nagara,moderate,27,Raghuvanahalli at Hemmigepura ward,12.878313,77.54944,250,M
+180,Swd Rr Nagara,moderate,28,Global Village Joining V Vally at Glabal Village Property ward no.198.,12.920448,77.502519,200,M                   Taken under CMNNY
+181,Swd Rr Nagara,moderate,29,Kendriya nagara ward 198,12.872472,77.528255,300,M
+182,Dasarahalli,moderate,3,1    Shettyhalli Janatha colony near Railway bridge 2    Visghneshwara Layout Chikkansdra Kammagondanahalli near MNTI Polytecnic,13.06407,77.53471,500,
+183,Dasarahalli,moderate,5,4    Chikkasandra near Mahaveer Aprt. Siddeswara Layout,13.034332,77.57271,500,Adjacent SWD have been De-silted
+184,Dasarahalli,moderate,6,MEI layout,13.06087,77.50116,500,Adjacent SWD have been De-silted
+185,Dasarahalli,moderate,7,Gundappa Layout & Belmar Layout,13.04681,77.50074,500,Adjacent SWD have been De-silted
+186,Dasarahalli,moderate,8,Government School & Durgalamma Temple,13.01264,77.51178,500,
+187,Dasarahalli,moderate,9,Settyhalli & Chikkasandra Village in Settyhalli Ward no. 12,13.06634,77.51178,500,Adjacent SWD have been De-silted
+188,Dasarahalli,moderate,10,"Aaimatha layout, Mallasandra, Bengaluru",13.06068,77.51178,500,Adjacent SWD have been De-silted
+189,Dasarahalli,moderate,11,Pillappanakatte valley (KTG Roads to DWCC),12.99822,77.51674,500,Adjacent SWD have been De-silted
+190,Dasarahalli,moderate,12,Shivapura tank in ward No 41.,13.05796,77.60487,500,Adjacent SWD have been De-silted
+191,Dasarahalli,moderate,13,Shambhavinagar in ward No 70,13.04137,77.47808,500,

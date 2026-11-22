@@ -1,0 +1,19 @@
+[out:json][timeout:180];
+(
+  way(around:1800,12.920984,77.584908)[highway~"^(footway|pedestrian|path|steps|living_street)$"];
+  way(around:1800,12.920984,77.584908)[highway~"^(trunk|trunk_link|primary|primary_link|secondary|secondary_link|tertiary|tertiary_link|residential|unclassified)$"];
+  node(around:1800,12.920984,77.584908)[highway=crossing];
+  way(around:1800,12.951913,77.539784)[highway~"^(footway|pedestrian|path|steps|living_street)$"];
+  way(around:1800,12.951913,77.539784)[highway~"^(trunk|trunk_link|primary|primary_link|secondary|secondary_link|tertiary|tertiary_link|residential|unclassified)$"];
+  node(around:1800,12.951913,77.539784)[highway=crossing];
+  way(around:1800,12.917348,77.622813)[highway~"^(footway|pedestrian|path|steps|living_street)$"];
+  way(around:1800,12.917348,77.622813)[highway~"^(trunk|trunk_link|primary|primary_link|secondary|secondary_link|tertiary|tertiary_link|residential|unclassified)$"];
+  node(around:1800,12.917348,77.622813)[highway=crossing];
+  way(around:1800,12.938539,77.5901)[highway~"^(footway|pedestrian|path|steps|living_street)$"];
+  way(around:1800,12.938539,77.5901)[highway~"^(trunk|trunk_link|primary|primary_link|secondary|secondary_link|tertiary|tertiary_link|residential|unclassified)$"];
+  node(around:1800,12.938539,77.5901)[highway=crossing];
+  way(around:1800,13.029152,77.585901)[highway~"^(footway|pedestrian|path|steps|living_street)$"];
+  way(around:1800,13.029152,77.585901)[highway~"^(trunk|trunk_link|primary|primary_link|secondary|secondary_link|tertiary|tertiary_link|residential|unclassified)$"];
+  node(around:1800,13.029152,77.585901)[highway=crossing];
+);
+out tags geom;

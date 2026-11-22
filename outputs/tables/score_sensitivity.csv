@@ -1,0 +1,4 @@
+weights,same_stops_in_top10
+pedestrian-heavy 0.5/0.3/0.2,10
+waterlog-heavy 0.3/0.5/0.2,10
+no pollution 0.5/0.5/0,8

@@ -1,0 +1,53 @@
+step,dataset,problem_found,rows_affected,action_taken,why
+02_weather,weather_hourly,timestamps are UTC text strings without an offset,8784,"parsed with explicit format, localised to UTC, converted to Asia/Kolkata",AQ data is in IST (+05:30); joining on raw strings would shift every hour by 5.5 h
+02_weather,weather_hourly,weather_code is a WMO category stored as a number,8784,cast to integer and treated as nominal,averaging codes (e.g. 61 and 95) is meaningless
+02_weather,weather_hourly,missing hourly values,0,none to fill,"Open-Meteo is a gridded reanalysis product, so it has no sensor gaps"
+02_weather,weather_hourly,"physically impossible values (rain<0, RH>100, temp outside 5-45 C)",0,checked; none dropped,range check before trusting the series
+02_weather,weather_hourly,"very high hourly rain values (top: 22 Mar 2025 15:30 = 15.0 mm, 20 Sep 2025 17:30 = 11.9 mm, 03 Oct 2025 22:30 = 9.8 mm)",6,kept; flagged as heavy_rain (>= 7.6 mm/h),"these are genuine monsoon cloudbursts, exactly the events we study"
+02_weather,weather_hourly,weather hours end at :30 in IST (UTC+05:30) while AQ readings are on IST quarter-hours,8784,every hour mapped to a common slot = IST clock hour whose +/-30 min window it covers,makes 'the same hour' mean the same 60 minutes in both sources
+02_weather,weather_hourly,extra hours downloaded outside the IST study window,24,removed,we downloaded one extra UTC day so that IST 00:00-05:30 on 1 Mar 2025 is covered
+03_air_quality,aq_readings_15min,"station label has an extra system suffix (e.g. 'Silk Board, Bengaluru - KSPCB-3379537')",1271160,kept numeric location_id as key; clean name + operator in a stations table,a text label with a changing suffix is not a safe join key
+03_air_quality,aq_readings_15min,"checked for sensor-ID changes inside the year (one parameter, many sensor ids)",0,"none found, nothing to merge",a mid-year ID change would split one station's series in two
+03_air_quality,aq_readings_15min,"parameters not used in this study (so2, o3, no, nox, temperature, RH, wind)",779688,dropped,"the question is about traffic-linked pollution (PM2.5, PM10, NO2, CO); weather comes from Open-Meteo so every station shares one consistent weather series"
+03_air_quality,aq_readings_15min,numbers stored as text in 'value',491472,converted to float (0 could not be parsed),text cannot be averaged or compared
+03_air_quality,aq_readings_15min,timestamps are ISO text with a +05:30 offset,491472,parsed to timezone-aware datetime in Asia/Kolkata,needed for resampling and for joining with UTC weather data
+03_air_quality,aq_readings_15min,CO unit label says 'ppb' but values are tiny (median 0.39),107258,relabelled as mg/m3 (values unchanged),"ambient CO of 0.4 ppb is impossible; 0.4 mg/m3 matches CPCB reports. NO2 keeps the OpenAQ label (ppb) - we only compare NO2 in z-scores, so its unit does not affect results"
+03_air_quality,aq_readings_15min,duplicate station-parameter-timestamp rows,0,none found,a reading must be counted once
+03_air_quality,aq_readings_15min,readings outside the 12-month study window (buffer days),3257,dropped,we downloaded one extra day on each side
+03_air_quality,aq_readings_15min,negative concentrations (all CO at Bapuji Nagar),20,"set to NaN, flag=negative",a concentration cannot be below zero; this is an instrument offset error
+03_air_quality,aq_readings_15min,repeated identical extreme value used as an error code (Jayanagar 5th Block pm25=794 x34),34,"set to NaN, flag=error_code",a real pollution peak never hits the exact same decimal value dozens of times on different days
+03_air_quality,aq_readings_15min,values >= 999 (classic sensor-failure sentinel),1,"set to NaN, flag=sentinel_999","999 / 1000+ readings are fill values, not measurements"
+03_air_quality,aq_readings_15min,PM2.5 greater than PM10 at the same timestamp,701,"PM2.5 set to NaN, flag=pm25_gt_pm10 (PM10 kept)",physically impossible; usually one of the two monitors is drifting. e.g. Bapuji Nagar 26 Jan 2026 08:45 PM2.5=813 vs PM10=63
+03_air_quality,aq_readings_15min,PM readings repeat the previous value 75% of the time (runs of 4),216911,kept; noted in V profile,"the 15-min PM feed is really an hourly value copied 4 times, so true PM velocity is hourly"
+03_air_quality,aq_readings_15min,flat-line: same value for >= 24 consecutive readings (6 h),283,"set to NaN, flag=flatline_6h",real air never stays exactly constant for 6 hours; the instrument is frozen
+03_air_quality,aq_readings_15min,isolated spikes (> 4x the 3-hour rolling median and far above it),144,"set to NaN, flag=spike",single-reading jumps that vanish 15 min later are electronic glitches; includes the Bapuji Nagar NO2 jumps at 04:30 on many May mornings (looks like an automatic calibration cycle)
+03_air_quality,aq_readings_15min,Deepavali / New Year night peaks (PM2.5 up to 251 ug/m3 on 20-22 Oct 2025): readings above the station's 99th percentile,139,KEPT - windows protected from the spike rule (0 would otherwise have been flagged),fireworks pollution is a real extreme event that residents breathe; removing it would under-state exposure
+03_air_quality,aq_hourly,NO2/CO hours with only 1 valid 15-min reading,6743,hour set to missing,one gas reading is not a reliable hourly average
+03_air_quality,aq_hourly,PM hours with only 1 valid 15-min reading,4850,kept,"PM quarter-hours repeat one hourly value, so one reading = the hour's value"
+03_air_quality,aq_hourly,pm25: missing hours in gaps of <= 3 h,1478,linear interpolation (max 3 h),short outages; values change smoothly over 1-3 h
+03_air_quality,aq_hourly,pm25: missing hours in gaps longer than 3 h,6828,"left missing (NaN), never filled",filling multi-day outages would invent data; analyses use available hours only
+03_air_quality,aq_hourly,pm10: missing hours in gaps of <= 3 h,987,linear interpolation (max 3 h),short outages; values change smoothly over 1-3 h
+03_air_quality,aq_hourly,pm10: missing hours in gaps longer than 3 h,6551,"left missing (NaN), never filled",filling multi-day outages would invent data; analyses use available hours only
+03_air_quality,aq_hourly,no2: missing hours in gaps of <= 3 h,3718,linear interpolation (max 3 h),short outages; values change smoothly over 1-3 h
+03_air_quality,aq_hourly,no2: missing hours in gaps longer than 3 h,9145,"left missing (NaN), never filled",filling multi-day outages would invent data; analyses use available hours only
+03_air_quality,aq_hourly,co: missing hours in gaps of <= 3 h,4362,linear interpolation (max 3 h),short outages; values change smoothly over 1-3 h
+03_air_quality,aq_hourly,co: missing hours in gaps longer than 3 h,10171,"left missing (NaN), never filled",filling multi-day outages would invent data; analyses use available hours only
+04_calendar,calendar,hand-typed holiday dates (2025 notification is a scanned PDF with OCR errors like '01. 0.2025'),24,typed by hand; every date checked against the weekday printed in the notification,catches typos such as 01.10 vs 01.11
+05_waterlogging,waterlogging_locations,PDF table (not machine-readable); names wrap over 2-3 lines,199,parsed with pdftotext -layout + regex; wrapped name pieces joined to the nearest coordinate line,OpenCity's KML copy is behind a bot-check we cannot pass
+05_waterlogging,waterlogging_locations,lat / lon / buffer read as text,199,cast to float / int,needed for distance calculations
+05_waterlogging,waterlogging_locations,"coordinates outside the Bengaluru bounding box: Near by 2nd Cross Ring Road Ward No (12.0101694, 77.5275333); Ideal Homes beside Akkamahadevi cho (13.9329972, 77.5118611); 15 Chakranagara Doddabidirukallu Th (13.017125, 77.299901)",3,dropped (not guessed),clear typos in the BBMP sheet (e.g. 12.01 instead of 13.01) - correcting them would be guessing
+05_waterlogging,waterlogging_locations,same coordinates listed twice (e.g. once per zone),5,"kept first, dropped repeats",one physical spot should count once
+05_waterlogging,waterlogging_locations,list is from 2020-21 (BBMP has not published a newer point list with coordinates),191,"used as-is, flagged as limitation",some spots may have been fixed since; others may be new. Treat as 'known history of flooding'
+06_spatial,bus_stops,GTFS stops with missing / unparsable coordinates,0,none found,a stop without a location cannot be mapped
+06_spatial,bus_stops,BMTC stops further than 1500 m from any of our 5 AQ stations,9777,not selected for the study,the case is about selected stop areas that have a nearby pollution monitor
+06_spatial,bus_stops,stops sharing a name (usually the two directions of one road),250,kept as separate stops,each side of the road has its own walk-in route
+06_spatial,bus_stops,selected stops with no Wednesday trip in the GTFS timetable,47,kept but flagged (trips_wed = 0),"the feed only includes routes with live tracking, so 0 may mean 'not tracked'"
+06_spatial,bus_stops,"GTFS timetable is a 2026-27 snapshot, study year is 2025-26",351,used stop locations + service counts as an approximation,BMTC publishes no historical feed; stop locations change slowly
+06_spatial,osm_ways,same OSM element returned more than once (the 5 search circles overlap),0,kept once,otherwise roads between two stations would be counted twice
+06_spatial,pedestrian_features,stops with no main road within 300 m,0,sidewalk ratio left empty (NaN),"a ratio with a zero denominator is undefined, not 0"
+07_news,news_articles,API windows that returned no answer after retries,10,listed in outputs/tables/news_failed_windows.txt; counts for those windows are missing,GDELT rate-limits requests; we report the gap instead of guessing
+07_news,news_articles,windows that hit GDELT's 250-article cap,1,kept; counts for waterlogging 20250501 are a lower bound,the API never returns more than 250 rows per call
+07_news,news_articles,GDELT time is a compact UTC string like '20250614T013000Z',931,parsed with an explicit format and converted to IST,a story seen at 22:00 UTC is already the next day in Bengaluru
+07_news,news_articles,duplicate articles (same URL found by both queries / same headline re-published on another site),84,kept the first copy,otherwise one story would be counted several times
+07_news,news_articles,articles seen outside 1 Mar 2025 - 28 Feb 2026 IST,0,dropped,keep the same 12 months as the sensor data
+07_news,news_articles,"headlines not in English (Kannada, Hindi ...)",98,kept but not keyword-tagged,our keyword list is English; translating would add errors

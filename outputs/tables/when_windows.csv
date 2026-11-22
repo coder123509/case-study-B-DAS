@@ -1,0 +1,25 @@
+month,window,pct_hours_rainy,rain_mm_total,pm25_dry_hours_mean
+Mar,morning 08-10,0.0,0.2,36.9
+Mar,evening 17-20,2.4,5.6,36.5
+Apr,morning 08-10,2.2,1.4,29.3
+Apr,evening 17-20,6.7,14.2,30.4
+May,morning 08-10,6.5,9.5,17.4
+May,evening 17-20,12.9,24.7,19.5
+Jun,morning 08-10,3.3,8.3,16.2
+Jun,evening 17-20,10.0,23.8,16.8
+Jul,morning 08-10,4.3,12.6,13.9
+Jul,evening 17-20,18.5,49.9,13.9
+Aug,morning 08-10,4.3,12.4,12.7
+Aug,evening 17-20,16.9,34.4,14.0
+Sep,morning 08-10,5.6,8.0,15.9
+Sep,evening 17-20,14.2,41.0,16.9
+Oct,morning 08-10,5.4,7.0,20.1
+Oct,evening 17-20,13.7,50.3,24.2
+Nov,morning 08-10,2.2,4.5,41.9
+Nov,evening 17-20,0.8,0.5,38.1
+Dec,morning 08-10,0.0,0.4,53.8
+Dec,evening 17-20,0.8,7.3,42.3
+Jan,morning 08-10,0.0,0.4,52.1
+Jan,evening 17-20,0.0,0.7,39.7
+Feb,morning 08-10,0.0,0.1,45.5
+Feb,evening 17-20,0.0,0.0,37.6

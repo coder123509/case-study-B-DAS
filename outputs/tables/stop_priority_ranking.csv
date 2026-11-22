@@ -1,0 +1,352 @@
+rank_all,stop_id,stop_name,station,lat,lon,trips_wed,routes,busy,sidewalk_per_major_road_m,crossings_per_km_major,nearest_waterlog_m,waterlog_within_500m,station_evening_pm25,c_pedestrian,c_waterlog,c_pollution,score
+1,Mzuvo4eN,Central Silk Board,Silk Board,12.918,77.622,217,17,1,0.07,0.5,72.0,2,32.146,0.948,0.928,1.0,95.875
+2,station:silkboard:platform:1c,Central Silk Board - Platform 1C,Silk Board,12.918,77.623,0,0,0,0.05,0.3,91.0,2,32.146,0.967,0.909,1.0,95.865
+3,58cclAcl,Central Silk Board,Silk Board,12.918,77.622,212,19,0,0.08,0.5,72.0,2,32.146,0.946,0.928,1.0,95.792
+4,station:silkboard:platform:1d,Central Silk Board - Platform 1D,Silk Board,12.918,77.623,0,0,0,0.06,0.3,94.0,2,32.146,0.964,0.906,1.0,95.682
+5,53wdnJ4A,Central Silk Board,Silk Board,12.917,77.624,0,0,0,0.06,0.3,97.0,2,32.146,0.964,0.903,1.0,95.582
+5,station:silkboard:platform:1b,Central Silk Board - Platform 1B,Silk Board,12.918,77.623,0,0,0,0.06,0.3,97.0,2,32.146,0.964,0.903,1.0,95.582
+7,station:silkboard:platform:1a,Central Silk Board - Platform 1A,Silk Board,12.918,77.623,0,0,0,0.06,0.3,106.0,2,32.146,0.964,0.894,1.0,95.282
+8,station:silkboard:platform:2c,Central Silk Board - Platform 2C,Silk Board,12.918,77.623,0,0,0,0.06,0.3,107.0,2,32.146,0.964,0.893,1.0,95.248
+9,station:silkboard:platform:2d,Central Silk Board - Platform 2D,Silk Board,12.918,77.623,0,0,0,0.06,0.3,109.0,2,32.146,0.964,0.891,1.0,95.182
+10,station:silkboard:platform:2b,Central Silk Board - Platform 2B,Silk Board,12.918,77.623,0,0,0,0.06,0.3,110.0,2,32.146,0.964,0.89,1.0,95.148
+11,station:silkboard:platform:2a,Central Silk Board - Platform 2A,Silk Board,12.918,77.623,0,0,0,0.04,0.3,117.0,2,32.146,0.969,0.883,1.0,95.082
+12,station:silkboard:platform:3b,Central Silk Board - Platform 3B,Silk Board,12.918,77.623,0,0,0,0.04,0.3,123.0,2,32.146,0.969,0.877,1.0,94.882
+13,p4PwnGUN,Central Silk Board,Silk Board,12.918,77.624,992,63,1,0.05,0.3,123.0,2,32.146,0.967,0.877,1.0,94.798
+14,station:silkboard:platform:3c,Central Silk Board - Platform 3C,Silk Board,12.918,77.623,0,0,0,0.06,0.3,121.0,2,32.146,0.964,0.879,1.0,94.782
+15,station:silkboard,Central Silk Board,Silk Board,12.918,77.623,0,0,0,0.06,0.3,122.0,2,32.146,0.964,0.878,1.0,94.748
+15,station:silkboard:platform:3d,Central Silk Board - Platform 3D,Silk Board,12.918,77.623,0,0,0,0.06,0.3,122.0,2,32.146,0.964,0.878,1.0,94.748
+17,qg3wD8Qt,Central Silk Board,Silk Board,12.918,77.624,1687,56,1,0.04,0.3,129.0,2,32.146,0.969,0.871,1.0,94.682
+18,station:silkboard:platform:3a,Central Silk Board - Platform 3A,Silk Board,12.918,77.624,0,0,0,0.04,0.3,130.0,2,32.146,0.969,0.87,1.0,94.648
+19,station:silkboard:platform:4d,Central Silk Board - Platform 4D,Silk Board,12.918,77.623,0,0,0,0.06,0.3,127.0,2,32.146,0.964,0.873,1.0,94.582
+20,station:silkboard:platform:5d,Central Silk Board - Platform 5D,Silk Board,12.918,77.623,0,0,0,0.05,0.3,132.0,2,32.146,0.967,0.868,1.0,94.498
+21,station:silkboard:platform:4c,Central Silk Board - Platform 4C,Silk Board,12.918,77.623,0,0,0,0.05,0.3,134.0,2,32.146,0.967,0.866,1.0,94.432
+22,station:silkboard:platform:4b,Central Silk Board - Platform 4B,Silk Board,12.918,77.623,0,0,0,0.04,0.3,137.0,2,32.146,0.969,0.863,1.0,94.415
+23,station:silkboard:platform:4a,Central Silk Board - Platform 4A,Silk Board,12.918,77.624,0,0,0,0.04,0.3,141.0,2,32.146,0.969,0.859,1.0,94.282
+24,station:silkboard:platform:5b,Central Silk Board - Platform 5B,Silk Board,12.918,77.623,0,0,0,0.03,0.3,150.0,2,32.146,0.972,0.85,1.0,94.065
+25,station:silkboard:platform:5c,Central Silk Board - Platform 5C,Silk Board,12.918,77.623,0,0,0,0.05,0.3,148.0,2,32.146,0.967,0.852,1.0,93.965
+26,station:silkboard:platform:5a,Central Silk Board - Platform 5A,Silk Board,12.918,77.624,0,0,0,0.04,0.3,153.0,2,32.146,0.969,0.847,1.0,93.882
+27,lBIC04me,Central Silk Board,Silk Board,12.917,77.621,1363,98,1,0.04,0.4,149.0,2,32.146,0.963,0.851,1.0,93.787
+28,qih5mR2N,Central Silk Board,Silk Board,12.917,77.621,1211,75,1,0.04,0.4,151.0,2,32.146,0.963,0.849,1.0,93.72
+29,htafGlrW,Central Silk Board,Silk Board,12.916,77.624,721,63,1,0.05,0.3,187.0,2,32.146,0.967,0.813,1.0,92.665
+30,0zRa7Jl5,Nayandahalli Junction,Bapuji Nagar,12.945,77.529,410,30,1,0.04,0.0,59.0,2,29.952,0.99,0.941,0.832,92.091
+31,lS9Z5Woi,Nayandahalli Junction,Bapuji Nagar,12.946,77.528,172,21,0,0.04,0.0,76.0,2,29.952,0.99,0.924,0.832,91.525
+32,2OYqz3CC,Mysore Road Bus Station,Bapuji Nagar,12.953,77.542,1975,307,1,0.01,0.6,64.0,3,29.952,0.956,0.936,0.832,90.805
+33,7Cb4wmQJ,Sri Gali Anjaneya Swami Temple,Bapuji Nagar,12.952,77.541,1,1,0,0.02,0.8,60.0,3,29.952,0.94,0.94,0.832,90.398
+34,qgc49Csh,CS-Mysore Road Metro Station,Bapuji Nagar,12.946,77.53,2,1,0,0.05,0.0,122.0,2,29.952,0.988,0.878,0.832,89.908
+35,igkRWimD,Mysore Road Metro Station,Bapuji Nagar,12.946,77.53,2009,288,1,0.05,0.0,127.0,2,29.952,0.988,0.873,0.832,89.741
+36,U34cCYpR,Deepanjalinagara,Bapuji Nagar,12.951,77.537,1448,123,1,0.0,0.0,174.0,2,29.952,1.0,0.826,0.832,88.591
+37,station:kuvempunagar:platform:main,Kuvempunagara Bus Stand (BTM Layout) - Platform Main,Silk Board,12.916,77.616,0,0,0,0.25,3.6,55.0,1,32.146,0.691,0.945,1.0,87.864
+38,sxeel7cJ,Madivala,Silk Board,12.92,77.621,1718,206,1,0.41,0.6,221.0,2,32.146,0.856,0.779,1.0,87.847
+39,o57JxpVG,Mysore Road Metro Station,Bapuji Nagar,12.946,77.53,1983,255,1,0.05,0.0,192.0,1,29.952,0.988,0.808,0.832,87.575
+40,jWaO3S8S,Kuvempunagara Bus Stand (BTM Layout),Silk Board,12.916,77.616,1303,91,1,0.26,3.8,61.0,1,32.146,0.675,0.939,1.0,87.124
+41,h9V05icS,Tavarekere Aladamara,Silk Board,12.922,77.611,31,5,0,0.17,0.0,351.0,1,32.146,0.958,0.649,1.0,86.883
+42,station:kuvempunagar,Kuvempunagara Bus Stand (BTM Layout),Silk Board,12.916,77.616,0,0,0,0.26,3.8,72.0,1,32.146,0.675,0.928,1.0,86.758
+43,xtq6zNrQ,Tavarekere Aladamara,Silk Board,12.922,77.611,28,6,0,0.21,0.0,356.0,1,32.146,0.948,0.644,1.0,86.383
+44,station:kuvempunagar:platform:25a60e164,Kuvempunagara Bus Stand (BTM Layout) - Platform 25A/60E/164,Silk Board,12.916,77.616,0,0,0,0.3,3.7,91.0,1,32.146,0.672,0.909,1.0,86.019
+45,Uu8WwAos,Nayandahalli Junction,Bapuji Nagar,12.944,77.53,815,53,1,0.06,0.0,237.0,1,29.952,0.985,0.763,0.832,85.991
+46,gAO0Rv28,Jai Bheema Nagara,Silk Board,12.919,77.616,30,5,0,0.0,0.0,426.0,1,32.146,1.0,0.574,1.0,85.8
+47,0dfVqIaR,Jai Bheema Nagara,Silk Board,12.919,77.616,12,2,0,0.0,0.0,429.0,1,32.146,1.0,0.571,1.0,85.7
+48,d1vl9Jcx,Avalahalli New BDA Layout Veerabhadranagara,Bapuji Nagar,12.943,77.537,11,2,0,0.0,0.0,279.0,1,29.952,1.0,0.721,0.832,85.091
+49,U8e4K9PY,Kuvempunagara ( BTM Layout),Silk Board,12.916,77.616,1298,93,1,0.3,3.7,119.0,1,32.146,0.672,0.881,1.0,85.086
+50,FFw6StmM,Avalahalli New BDA Layout Veerabhadranagara,Bapuji Nagar,12.943,77.537,12,3,0,0.0,0.0,285.0,1,29.952,1.0,0.715,0.832,84.891
+51,vsKzELZe,Bommanahalli Hosur Road,Silk Board,12.907,77.628,286,33,1,0.01,2.5,289.0,1,32.146,0.826,0.711,1.0,84.576
+52,KKASHmOb,Kuvempunagara Bus Stand (BTM Layout),Silk Board,12.916,77.616,382,14,1,0.3,4.0,114.0,1,32.146,0.651,0.886,1.0,84.568
+53,gOAHbTo6,Mysore Road Bus Station,Bapuji Nagar,12.954,77.544,170,6,0,0.0,0.0,296.0,2,29.952,1.0,0.704,0.832,84.525
+54,l3elWYHW,CS-Deepanjalinagara,Bapuji Nagar,12.952,77.537,2,1,0,0.07,0.0,281.0,2,29.952,0.982,0.719,0.832,84.441
+55,ZpnaD2XE,Bommanahalli Hosur Road,Silk Board,12.907,77.628,280,37,1,0.01,2.3,307.0,1,32.146,0.84,0.693,1.0,84.432
+56,station:bapujinagar:platform:1,Mysore Road Bus Station - Platform 1,Bapuji Nagar,12.954,77.544,0,0,0,0.0,0.5,279.0,2,29.952,0.966,0.721,0.832,83.95
+56,station:bapujinagar,Mysore Road Bus Station,Bapuji Nagar,12.953,77.544,0,0,0,0.0,0.5,279.0,2,29.952,0.966,0.721,0.832,83.95
+56,station:bapujinagar:platform:2,Mysore Road Bus Station - Platform 2,Bapuji Nagar,12.953,77.544,0,0,0,0.0,0.5,279.0,2,29.952,0.966,0.721,0.832,83.95
+59,station:bapujinagar:platform:3,Mysore Road Bus Station - Platform 3,Bapuji Nagar,12.953,77.544,0,0,0,0.0,0.5,280.0,2,29.952,0.966,0.72,0.832,83.917
+60,AoxFj3ia,Mysore Road Bus Station,Bapuji Nagar,12.954,77.544,2785,300,1,0.0,0.5,281.0,2,29.952,0.966,0.719,0.832,83.883
+61,7JSuppaE,Banashankari Temple,Jayanagar 5th Block,12.916,77.574,1,1,0,0.06,1.3,234.0,1,30.011,0.896,0.766,0.836,83.274
+62,0lnKYpjz,Jayanagara Pump House,Jayanagar 5th Block,12.922,77.597,313,40,1,0.2,0.0,308.0,2,30.011,0.95,0.692,0.836,82.609
+63,kgRQVQDu,Jayanagara Pump House,Jayanagar 5th Block,12.922,77.597,324,45,1,0.18,0.0,320.0,2,30.011,0.955,0.68,0.836,82.376
+64,DDR0fWXQ,New Guddadahalli,Bapuji Nagar,12.956,77.546,1860,294,1,0.0,0.0,370.0,1,29.952,1.0,0.63,0.832,82.058
+65,89T2Xs7c,Banashankari Bus Station,Jayanagar 5th Block,12.916,77.574,821,119,1,0.12,1.2,282.0,1,30.011,0.888,0.718,0.836,81.403
+66,OM1b4BlG,Madivala,Silk Board,12.922,77.621,1715,203,1,0.83,0.8,339.0,1,32.146,0.738,0.661,1.0,79.957
+67,sTDcP19r,BHEL Mysore Road,Bapuji Nagar,12.949,77.536,1990,256,1,0.0,1.5,364.0,2,29.952,0.897,0.636,0.832,78.833
+68,GWCRMCQl,Deepanjalinagara,Bapuji Nagar,12.954,77.536,1104,90,1,0.22,0.0,436.0,1,29.952,0.945,0.564,0.832,78.025
+69,QWeq6ZjT,BHEL Mysore Road,Bapuji Nagar,12.949,77.536,2016,289,1,0.0,1.6,384.0,2,29.952,0.89,0.616,0.832,77.939
+70,0hJflgcZ,Gangothri Circle,Silk Board,12.92,77.613,21,5,0,0.28,0.0,595.0,0,32.146,0.93,0.405,1.0,77.833
+71,bqzkardv,Gangothri Circle,Silk Board,12.92,77.613,21,4,0,0.31,0.0,603.0,0,32.146,0.922,0.397,1.0,77.317
+72,fr1ysW8q,Gangondanahalli Masjid,Bapuji Nagar,12.95,77.527,22,3,0,0.0,0.0,516.0,0,29.952,1.0,0.484,0.832,77.191
+73,xwjyGX24,Roopena Agrahara,Silk Board,12.911,77.626,2,1,0,0.03,0.4,657.0,0,32.146,0.965,0.343,1.0,76.937
+74,station:banashankari:platform:1,Banashankari Bus Station - Platform 1,Jayanagar 5th Block,12.917,77.573,0,0,0,0.11,1.2,420.0,1,30.011,0.89,0.58,0.836,76.886
+75,LRqQwtoA,HSR layout 14th Main,Silk Board,12.916,77.635,1688,104,1,0.38,0.3,581.0,0,32.146,0.884,0.419,1.0,76.782
+76,F7zTs6KA,Indiragandhi Circle,Jayanagar 5th Block,12.911,77.579,129,11,0,0.0,0.0,535.0,0,30.011,1.0,0.465,0.836,76.709
+77,station:banashankari:platform:2,Banashankari Bus Station - Platform 2,Jayanagar 5th Block,12.917,77.573,0,0,0,0.11,1.2,428.0,1,30.011,0.89,0.572,0.836,76.619
+78,LrTQudjG,Indiragandhi Circle,Jayanagar 5th Block,12.911,77.579,34,2,0,0.0,0.0,541.0,0,30.011,1.0,0.459,0.836,76.509
+79,L5OBP0f6,Banashankari Bus Station,Jayanagar 5th Block,12.917,77.573,2922,196,1,0.11,1.2,439.0,1,30.011,0.89,0.561,0.836,76.253
+79,station:banashankari:platform:7,Banashankari Bus Station - Platform 7,Jayanagar 5th Block,12.917,77.573,0,0,0,0.11,1.2,439.0,1,30.011,0.89,0.561,0.836,76.253
+81,h3RpuVqP,New Guddadahalli,Bapuji Nagar,12.956,77.548,1861,261,1,0.0,0.0,545.0,0,29.952,1.0,0.455,0.832,76.225
+82,p7bZdeDT,Roopena Agrahara,Silk Board,12.912,77.626,301,30,1,0.01,0.3,692.0,0,32.146,0.977,0.308,1.0,76.165
+83,station:banashankari:platform:6,Banashankari Bus Station - Platform 6,Jayanagar 5th Block,12.918,77.573,0,0,0,0.12,1.2,441.0,1,30.011,0.888,0.559,0.836,76.103
+84,qCY0dlDO,Roopena Agrahara,Silk Board,12.912,77.626,178,11,0,0.0,0.4,690.0,0,32.146,0.973,0.31,1.0,76.087
+85,iNiZYh1g,14th Main HSR Layout,Silk Board,12.916,77.635,1699,100,1,0.37,0.6,589.0,0,32.146,0.866,0.411,1.0,75.913
+86,TzYHt2pg,Timber Yard Layout,Bapuji Nagar,12.948,77.543,1,1,0,0.0,0.0,557.0,0,29.952,1.0,0.443,0.832,75.825
+87,eTgKvMcu,Roopena Agrahara,Silk Board,12.912,77.626,292,16,1,0.03,0.7,675.0,0,32.146,0.945,0.325,1.0,75.652
+88,9XBe7tti,Roopena Agrahara,Silk Board,12.912,77.626,1804,226,1,0.0,0.4,707.0,0,32.146,0.973,0.293,1.0,75.52
+89,1JoAyvHn,Timber Yard Layout,Bapuji Nagar,12.948,77.543,1,1,0,0.0,0.0,568.0,0,29.952,1.0,0.432,0.832,75.458
+90,lBmam8mR,Roopena Agrahara,Silk Board,12.912,77.626,278,19,1,0.01,1.1,660.0,0,32.146,0.922,0.34,1.0,75.405
+91,OkeeC5nH,BCC Layout Cross,Bapuji Nagar,12.954,77.536,1184,92,1,0.2,0.0,525.0,0,29.952,0.95,0.475,0.832,75.225
+92,station:banashankari:platform:8,Banashankari Bus Station - Platform 8,Jayanagar 5th Block,12.918,77.573,0,0,0,0.11,1.6,459.0,1,30.011,0.863,0.541,0.836,74.673
+93,gNOruF98,CS-Banashankari,Jayanagar 5th Block,12.918,77.574,7,3,0,0.19,2.0,413.0,1,30.011,0.816,0.587,0.836,74.626
+94,sXOMI5p8,16th Main Hopcoms BTM Layout,Silk Board,12.92,77.61,16,2,0,0.54,0.5,600.0,0,32.146,0.831,0.4,1.0,74.358
+95,HZvRx0xo,JP Nagara Water Tank,Jayanagar 5th Block,12.914,77.595,128,25,0,0.0,0.0,608.0,0,30.011,1.0,0.392,0.836,74.276
+96,jvrVi2u4,Sanjay Gandhi Hospital,Jayanagar 5th Block,12.927,77.593,462,54,1,0.27,0.0,546.0,0,30.011,0.932,0.454,0.836,74.092
+97,paWyHNm1,SI Apartment HSR Layout,Silk Board,12.917,77.629,1796,109,1,0.41,0.4,654.0,0,32.146,0.87,0.346,1.0,73.87
+98,9iyTik6k,Sanjay Gandhi Hospital,Jayanagar 5th Block,12.927,77.593,487,62,1,0.26,0.0,556.0,0,30.011,0.935,0.444,0.836,73.842
+99,station:banashankari,Banashankari Bus Station,Jayanagar 5th Block,12.918,77.573,0,0,0,0.12,2.1,450.0,1,30.011,0.826,0.55,0.836,73.748
+100,HyJp77vm,Sanjay Gandhi Hospital,Jayanagar 5th Block,12.927,77.594,16,3,0,0.25,0.0,562.0,0,30.011,0.938,0.438,0.836,73.726
+101,station:banashankari:platform:5,Banashankari Bus Station - Platform 5,Jayanagar 5th Block,12.918,77.573,0,0,0,0.11,2.1,456.0,1,30.011,0.829,0.544,0.836,73.631
+102,qPwVlOau,17th Main Hopcoms BTM Layout,Silk Board,12.92,77.61,14,2,0,0.56,0.5,617.0,0,32.146,0.826,0.383,1.0,73.625
+103,station:banashankari:platform:3,Banashankari Bus Station - Platform 3,Jayanagar 5th Block,12.918,77.573,0,0,0,0.12,2.1,458.0,1,30.011,0.826,0.542,0.836,73.481
+104,zHzDm8aI,CS-Girinagara Extension,Bapuji Nagar,12.941,77.539,2,1,0,0.0,0.0,629.0,0,29.952,1.0,0.371,0.832,73.425
+105,ZqCQoqIj,Madivala Masidi,Silk Board,12.925,77.619,385,38,1,0.13,0.0,775.0,0,32.146,0.968,0.225,1.0,73.083
+106,station:banashankari:platform:4,Banashankari Bus Station - Platform 4,Jayanagar 5th Block,12.918,77.573,0,0,0,0.12,2.1,470.0,1,30.011,0.826,0.53,0.836,73.081
+107,vTBAAfUC,Roopena Agrahara,Silk Board,12.912,77.626,1369,177,1,0.05,1.7,681.0,0,32.146,0.871,0.319,1.0,73.002
+108,hJUvFgEF,CS-Fetherlite Factory Guddadahalli,Bapuji Nagar,12.95,77.546,2,1,0,0.0,0.0,644.0,0,29.952,1.0,0.356,0.832,72.925
+109,station:banashankari:platform:9,Banashankari Bus Station - Platform 9,Jayanagar 5th Block,12.918,77.573,0,0,0,0.12,2.1,477.0,1,30.011,0.826,0.523,0.836,72.848
+110,3GQJEct5,Banashankari Bus Station,Jayanagar 5th Block,12.918,77.573,4305,346,1,0.12,2.1,479.0,1,30.011,0.826,0.521,0.836,72.781
+111,c4JvQ68b,SI Apartment HSR Layout,Silk Board,12.917,77.629,1831,105,1,0.41,1.0,647.0,0,32.146,0.829,0.353,1.0,72.734
+112,qAN8JGBW,BCC Layout,Bapuji Nagar,12.951,77.53,21,4,0,0.0,0.0,651.0,0,29.952,1.0,0.349,0.832,72.691
+113,5RZuFecD,Girinagara Extension,Bapuji Nagar,12.941,77.539,21,5,0,0.0,0.0,659.0,0,29.952,1.0,0.341,0.832,72.425
+114,RRMuzkNm,Vasudev Adigas Hotel,Silk Board,12.911,77.632,56,1,0,0.88,7.7,108.0,1,32.146,0.28,0.892,1.0,72.4
+115,dU9Co7fd,BCC Layout Cross,Bapuji Nagar,12.955,77.535,18,4,0,0.19,0.0,615.0,0,29.952,0.952,0.385,0.832,72.308
+116,mDh7uAJG,Carmel Convent Jayanagara,Jayanagar 5th Block,12.926,77.597,313,40,1,0.61,0.0,516.0,0,30.011,0.848,0.484,0.836,72.259
+117,QJPqi1xl,East End Jayanagara,Jayanagar 5th Block,12.917,77.598,1470,107,1,0.44,5.2,208.0,1,30.011,0.534,0.792,0.836,72.07
+118,iUAY3Nk7,Sangam Circle,Jayanagar 5th Block,12.918,77.577,1889,152,1,0.67,0.5,476.0,1,30.011,0.798,0.524,0.836,71.951
+119,j0ZA6KbH,Girinagara Extension,Bapuji Nagar,12.941,77.54,26,7,0,0.0,0.0,677.0,0,29.952,1.0,0.323,0.832,71.825
+120,gbT9gaiJ,Ayyappaswamy Temple Madivala,Silk Board,12.925,77.618,94,31,0,0.16,0.0,808.0,0,32.146,0.96,0.192,1.0,71.733
+121,GCQ4BnFp,Vasudev Adigas Hotel,Silk Board,12.911,77.632,56,1,0,0.95,8.3,111.0,1,32.146,0.262,0.889,1.0,71.717
+122,mhtPI37A,4th T Block Jayanagara,Jayanagar 5th Block,12.923,77.594,121,7,0,0.0,0.0,704.0,0,30.011,1.0,0.296,0.836,71.076
+123,d9WZMR3v,Carmel Convent Jayanagara,Jayanagar 5th Block,12.927,77.597,324,45,1,0.6,0.0,555.0,0,30.011,0.85,0.445,0.836,71.042
+124,MwDxNSWM,4th T Block Jayanagara,Jayanagar 5th Block,12.923,77.593,137,9,0,0.0,0.0,721.0,0,30.011,1.0,0.279,0.836,70.509
+125,jaAtswGq,Jayanagara Church,Jayanagar 5th Block,12.927,77.59,200,15,0,0.31,0.0,648.0,0,30.011,0.922,0.352,0.836,70.359
+126,Fl5siklZ,Koramangala BDA Complex,Silk Board,12.931,77.622,409,47,1,0.37,0.0,812.0,0,32.146,0.908,0.188,1.0,69.85
+127,c9JGTzhW,Veterinary Hospital,Hebbal,13.032,77.588,1643,253,1,0.0,0.0,290.0,1,24.069,1.0,0.71,0.381,69.689
+128,hQZ3M3MM,Koramangala BDA Complex,Silk Board,12.931,77.622,429,42,1,0.37,0.0,825.0,0,32.146,0.908,0.175,1.0,69.417
+129,nxjkGYCV,Canara Bank Hebbala,Hebbal,13.036,77.589,1691,270,1,0.03,0.0,298.0,1,24.069,0.992,0.702,0.381,69.172
+130,rvgZG8JS,Sangam Circle,Jayanagar 5th Block,12.917,77.579,1817,148,1,0.64,1.1,532.0,0,30.011,0.765,0.468,0.836,68.964
+131,OFQLW2kM,Sangam Circle,Jayanagar 5th Block,12.918,77.578,59,2,0,0.76,1.1,506.0,0,30.011,0.735,0.494,0.836,68.831
+132,zk76TN0N,Canara Bank Hebbala,Hebbal,13.036,77.589,1690,255,1,0.04,0.0,312.0,1,24.069,0.99,0.688,0.381,68.622
+133,xwqxIhV7,Hebbala,Hebbal,13.041,77.589,511,24,1,0.1,0.7,253.0,1,24.069,0.927,0.747,0.381,68.491
+134,tAITpjbT,Depot-4 Jayanagara,Jayanagar 5th Block,12.925,77.593,6,1,0,0.0,0.0,783.0,0,30.011,1.0,0.217,0.836,68.442
+135,MyzzuLro,Hampinagara RPC Layout,Bapuji Nagar,12.959,77.536,358,11,1,0.0,0.0,787.0,0,29.952,1.0,0.213,0.832,68.158
+136,q3CxpCzK,Jayanagara Church,Jayanagar 5th Block,12.928,77.587,608,67,1,0.31,3.2,546.0,0,30.011,0.703,0.454,0.836,66.453
+137,GquBdeb0,Hampi Nagara 7th Main,Bapuji Nagar,12.962,77.538,175,6,0,0.0,0.0,840.0,0,29.952,1.0,0.16,0.832,66.391
+138,Gc566y4J,9th Block Jayanagara (40th Cross),Jayanagar 5th Block,12.92,77.592,250,10,1,0.02,0.0,840.0,0,30.011,0.995,0.16,0.836,66.376
+139,xU8yeKoo,Hampi Nagara 7th Main,Bapuji Nagar,12.962,77.538,151,4,0,0.0,0.0,842.0,0,29.952,1.0,0.158,0.832,66.325
+140,5Y32N0to,Gangenahalli,Hebbal,13.023,77.584,69,8,0,0.56,0.0,251.0,1,24.069,0.86,0.749,0.381,66.322
+141,7dqA2mEJ,CBI,Hebbal,13.026,77.585,1574,229,1,0.2,0.3,326.0,1,24.069,0.929,0.674,0.381,66.137
+142,QyFNR1hB,BTM Layout 16th Main,Silk Board,12.917,77.61,16,2,0,0.48,2.6,723.0,0,32.146,0.702,0.277,1.0,65.964
+143,4VX7e80D,Avalahalli BDA Park Girinagara,Bapuji Nagar,12.943,77.543,81,6,0,0.0,0.0,857.0,0,29.952,1.0,0.143,0.832,65.825
+144,YMHyW8pv,Banashankari Hunasemara,Jayanagar 5th Block,12.92,77.574,763,114,1,0.4,2.2,628.0,0,30.011,0.749,0.372,0.836,65.253
+145,Yz3chd1F,BTM Layout 16th Main,Silk Board,12.916,77.61,23,7,0,0.56,2.7,719.0,0,32.146,0.675,0.281,1.0,65.202
+146,SGvOhOJF,Kendriya Sadana Koramangala,Silk Board,12.926,77.62,383,37,1,0.38,1.9,833.0,0,32.146,0.775,0.167,1.0,64.729
+147,GgRLb9fX,BTM Layout 16th Main,Silk Board,12.917,77.61,14,2,0,0.48,2.9,741.0,0,32.146,0.681,0.259,1.0,64.679
+148,QCBt2wyR,Banashankari Hunasemara,Jayanagar 5th Block,12.92,77.574,718,110,1,0.43,2.4,629.0,0,30.011,0.728,0.371,0.836,64.513
+149,gvAGcYUY,CS-CBI,Hebbal,13.026,77.586,2,1,0,0.19,0.3,379.0,1,24.069,0.932,0.621,0.381,64.454
+150,dxALUO0Q,Avalahalli BDA Park Girinagara,Bapuji Nagar,12.943,77.543,12,3,0,0.0,0.0,900.0,0,29.952,1.0,0.1,0.832,64.391
+151,ETvpvgap,Attiguppe,Bapuji Nagar,12.958,77.534,6,2,0,0.0,0.0,906.0,0,29.952,1.0,0.094,0.832,64.191
+152,da36oPwc,Attiguppe,Bapuji Nagar,12.958,77.534,5,3,0,0.0,0.0,912.0,0,29.952,1.0,0.088,0.832,63.991
+153,2Ynt1Kg4,9th Block Jayanagara,Jayanagar 5th Block,12.92,77.593,7,2,0,0.06,1.4,807.0,0,30.011,0.889,0.193,0.836,63.946
+154,KV7ZY5Dp,CBI,Hebbal,13.027,77.586,1572,247,1,0.19,0.3,396.0,1,24.069,0.932,0.604,0.381,63.887
+155,FMF5eksS,Gangenahalli,Hebbal,13.023,77.585,147,27,0,0.55,0.0,328.0,1,24.069,0.862,0.672,0.381,63.839
+156,lQniqOIu,CS-East End Jayanagara,Jayanagar 5th Block,12.917,77.597,2,1,0,0.37,7.6,339.0,1,30.011,0.408,0.661,0.836,63.492
+157,qsp7MFZk,Hebbala,Hebbal,13.039,77.59,1871,271,1,0.13,0.3,423.0,1,24.069,0.947,0.577,0.381,63.487
+158,vyx0Kq0v,East End Jayanagara,Jayanagar 5th Block,12.917,77.597,324,45,1,0.38,7.6,339.0,1,30.011,0.405,0.661,0.836,63.409
+159,hzsGvAlX,Srirangam Silk House HSR Layout,Silk Board,12.912,77.635,112,2,0,1.32,6.6,317.0,1,32.146,0.218,0.683,1.0,63.365
+160,4weuSbQH,Veterinary Hospital,Hebbal,13.03,77.587,1685,269,1,0.0,0.0,501.0,0,24.069,1.0,0.499,0.381,62.655
+161,FqRBJuew,CBI,Hebbal,13.027,77.586,312,36,1,0.16,0.3,441.0,1,24.069,0.939,0.559,0.381,62.637
+161,Xm3LvPwJ,CBI,Hebbal,13.027,77.586,274,35,1,0.16,0.3,441.0,1,24.069,0.939,0.559,0.381,62.637
+163,CPIv759B,Tavarekere Metro Station(Bannerughatta Road),Hombegowda Nagar,12.93,77.601,738,82,1,0.33,0.0,39.0,1,19.105,0.918,0.961,0.0,62.617
+164,zjLxpOFn,Attiguppe,Bapuji Nagar,12.958,77.534,1245,109,1,0.0,0.0,956.0,0,29.952,1.0,0.044,0.832,62.525
+165,IfC0V2cA,Attiguppe,Bapuji Nagar,12.958,77.534,1311,106,1,0.0,0.0,962.0,0,29.952,1.0,0.038,0.832,62.325
+166,1ll7NqMr,Kudure Mukha Colony,Silk Board,12.926,77.626,363,48,1,1.06,0.0,867.0,0,32.146,0.735,0.133,1.0,62.267
+167,Tq9wFs7E,Tavarekere Metro Station(Bannerughatta Road),Hombegowda Nagar,12.93,77.601,678,78,1,0.34,0.0,55.0,1,19.105,0.915,0.945,0.0,62.0
+167,e5F4jTmT,CS-CPWD Quarters Koramangala,Silk Board,12.926,77.625,2,1,0,1.04,0.0,880.0,0,32.146,0.74,0.12,1.0,62.0
+169,q8FfYqqM,Kudure Mukha Colony,Silk Board,12.926,77.625,1991,248,1,1.07,0.0,875.0,0,32.146,0.732,0.125,1.0,61.917
+170,4ecFBfeF,BTM Layout 16th Main,Silk Board,12.916,77.609,1450,103,1,0.58,2.8,813.0,0,32.146,0.663,0.187,1.0,61.674
+171,JiFsKjwR,Srirangam Silk House HSR Layout,Silk Board,12.912,77.635,112,2,0,1.35,7.2,322.0,1,32.146,0.169,0.678,1.0,61.578
+172,lF5LFEir,Jayanagara 18th Main,Jayanagar 5th Block,12.923,77.589,136,8,0,0.0,0.0,1075.0,0,30.011,1.0,0.0,0.836,61.209
+172,DdAgNPe1,18th Main Jayanagara,Jayanagar 5th Block,12.923,77.59,127,8,0,0.0,0.0,1051.0,0,30.011,1.0,0.0,0.836,61.209
+174,aA7uvm5G,Banashankari Hunasemara,Jayanagar 5th Block,12.921,77.574,251,28,1,0.42,2.0,759.0,0,30.011,0.758,0.241,0.836,61.176
+175,GEtaGcLm,Chandra Public School,Bapuji Nagar,12.96,77.53,306,45,1,0.0,0.0,1448.0,0,29.952,1.0,0.0,0.832,61.058
+175,HHbJPZv2,Kalidasa Layout,Bapuji Nagar,12.948,77.553,22,3,0,0.0,0.0,1360.0,0,29.952,1.0,0.0,0.832,61.058
+175,QyzEVQGZ,Telecom Layout Kalidasa Layout,Bapuji Nagar,12.948,77.549,10,2,0,0.0,0.0,1018.0,0,29.952,1.0,0.0,0.832,61.058
+175,JgK6XYJf,Girinagara Cross,Bapuji Nagar,12.943,77.545,70,9,0,0.0,0.0,1088.0,0,29.952,1.0,0.0,0.832,61.058
+175,yP62bWU5,Muneshwara Block Cross,Bapuji Nagar,12.942,77.549,93,13,0,0.0,0.0,1416.0,0,29.952,1.0,0.0,0.832,61.058
+175,3QcRfCQO,Telecom Layout Kalidasa Layout,Bapuji Nagar,12.948,77.549,10,2,0,0.0,0.0,1009.0,0,29.952,1.0,0.0,0.832,61.058
+175,1MTS6KSc,Ganesha Temple Chandra Layout,Bapuji Nagar,12.958,77.529,355,56,1,0.0,0.0,1341.0,0,29.952,1.0,0.0,0.832,61.058
+175,EsH15wW4,Muneshwara Block,Bapuji Nagar,12.945,77.547,14,2,0,0.0,0.0,1100.0,0,29.952,1.0,0.0,0.832,61.058
+175,FtVfG3LV,Muneshwara Block Cross,Bapuji Nagar,12.942,77.549,77,10,0,0.0,0.0,1428.0,0,29.952,1.0,0.0,0.832,61.058
+175,tP5JPqXR,Girinagara 2nd Stage,Bapuji Nagar,12.941,77.545,26,5,0,0.0,0.0,1216.0,0,29.952,1.0,0.0,0.832,61.058
+175,r26XWUic,Attiguppe Metro Station,Bapuji Nagar,12.962,77.534,1445,115,1,0.0,0.0,1173.0,0,29.952,1.0,0.0,0.832,61.058
+175,qkT2Y45o,Income Tax Layout,Bapuji Nagar,12.96,77.531,424,52,1,0.0,0.0,1310.0,0,29.952,1.0,0.0,0.832,61.058
+175,SBKH8hit,Girinagara 2nd Stage,Bapuji Nagar,12.941,77.545,19,4,0,0.0,0.0,1210.0,0,29.952,1.0,0.0,0.832,61.058
+175,uhXjDAdn,Girinagara Cross,Bapuji Nagar,12.943,77.545,68,10,0,0.0,0.0,1070.0,0,29.952,1.0,0.0,0.832,61.058
+175,jWdiGbHD,Chandra Public School,Bapuji Nagar,12.96,77.53,369,57,1,0.0,0.0,1447.0,0,29.952,1.0,0.0,0.832,61.058
+175,c9YuFKRN,Income Tax Layout,Bapuji Nagar,12.96,77.531,299,53,1,0.0,0.0,1317.0,0,29.952,1.0,0.0,0.832,61.058
+175,QjTzNHCc,Ganesha Temple Chandra Layout,Bapuji Nagar,12.958,77.529,343,51,1,0.0,0.0,1351.0,0,29.952,1.0,0.0,0.832,61.058
+192,LKG19B97,Hebbala,Hebbal,13.039,77.589,1826,259,1,0.12,0.3,499.0,1,24.069,0.949,0.501,0.381,61.037
+193,OAkbLs9F,BTM Layout 16th Main,Silk Board,12.917,77.609,1426,97,1,0.52,3.0,834.0,0,32.146,0.665,0.166,1.0,61.017
+194,iXgnYGge,CS-St Johns Hospital,Silk Board,12.929,77.618,2,1,0,0.45,0.9,1091.0,0,32.146,0.826,0.0,1.0,60.862
+195,eCHNMF1U,Krupanidhi College,Silk Board,12.924,77.629,1643,200,1,0.56,1.6,925.0,0,32.146,0.75,0.075,1.0,60.847
+196,g1cHwD9M,9th block Jayanagara,Jayanagar 5th Block,12.92,77.593,6,1,0,0.11,2.7,805.0,0,30.011,0.788,0.195,0.836,60.628
+197,yUkyXs6N,Sanjayanagara,Hebbal,13.034,77.576,208,10,0,1.0,0.0,321.0,1,24.069,0.75,0.679,0.381,60.322
+198,mMwR7ANi,Sanjayanagara,Hebbal,13.034,77.576,203,10,0,1.0,0.0,323.0,1,24.069,0.75,0.677,0.381,60.255
+199,z3CI6152,Hampi Nagara Post Office,Bapuji Nagar,12.965,77.538,196,3,0,0.11,0.0,1106.0,0,29.952,0.972,0.0,0.832,60.141
+200,6b6DTqJb,Hampi Nagara Post Office,Bapuji Nagar,12.965,77.538,116,3,0,0.13,0.0,1094.0,0,29.952,0.968,0.0,0.832,59.975
+201,6ebAjNBs,Deepak Nursing Home,Jayanagar 5th Block,12.925,77.577,711,108,1,0.15,0.0,1257.0,0,30.011,0.962,0.0,0.836,59.959
+202,eXjfJRhk,12th Main 7th Cross BTM Layout,Silk Board,12.914,77.61,23,7,0,0.88,3.4,752.0,0,32.146,0.547,0.248,1.0,59.837
+203,MOHk0fGp,Deepak Nursing Home,Jayanagar 5th Block,12.926,77.577,717,104,1,0.2,0.0,1347.0,0,30.011,0.95,0.0,0.836,59.542
+204,q2iaHsjf,13th Main 7th Cross BTM Layout,Silk Board,12.914,77.61,19,5,0,0.91,3.7,755.0,0,32.146,0.519,0.245,1.0,58.803
+205,D5UFTWZD,National College Jayanagara,Jayanagar 5th Block,12.925,77.578,59,2,0,0.33,0.0,1223.0,0,30.011,0.918,0.0,0.836,58.459
+205,lWFt3P0e,National College Jayanagara,Jayanagar 5th Block,12.925,77.578,63,3,0,0.33,0.0,1227.0,0,30.011,0.918,0.0,0.836,58.459
+207,9ilyqWhO,Banashankari Hunasemara,Jayanagar 5th Block,12.921,77.574,218,27,1,0.4,3.3,774.0,0,30.011,0.674,0.226,0.836,57.875
+208,VngpUwPq,East End Jayanagara,Jayanagar 5th Block,12.917,77.595,3,1,0,0.38,9.9,528.0,0,30.011,0.405,0.472,0.836,57.109
+209,zhkY0XOo,Mysore Road TollGate,Bapuji Nagar,12.957,77.552,1859,293,1,0.36,1.4,950.0,0,29.952,0.814,0.05,0.832,56.528
+210,gpAobfzX,Byarasandra New Bus stand,Hombegowda Nagar,12.935,77.59,6,2,0,0.0,0.0,305.0,1,19.105,1.0,0.695,0.0,56.5
+211,8l39ngYl,Water Tank Koramangala,Silk Board,12.927,77.621,1573,204,1,0.65,2.4,987.0,0,32.146,0.673,0.013,1.0,56.204
+212,QgTd6vtt,Water Tank Koramangala,Silk Board,12.928,77.621,327,48,1,0.63,2.3,999.0,0,32.146,0.685,0.001,1.0,56.199
+213,tykPb9Om,Jayanagara Bus Stand,Jayanagar 5th Block,12.929,77.586,529,58,1,0.61,6.9,530.0,0,30.011,0.375,0.47,0.836,56.039
+214,hy3zXLW7,St francis College,Silk Board,12.924,77.631,373,51,1,0.21,4.0,1059.0,0,32.146,0.674,0.0,1.0,55.784
+215,0FA0eKEE,Water Tank Koramangala,Silk Board,12.928,77.621,419,45,1,0.69,2.5,1031.0,0,32.146,0.656,0.0,1.0,55.209
+216,DqKk9fnb,Water Tank Koramangala,Silk Board,12.928,77.621,429,42,1,0.7,2.5,1081.0,0,32.146,0.654,0.0,1.0,55.126
+217,rVLrunVV,Wilson Garden Police Station,Hombegowda Nagar,12.951,77.596,1744,156,1,0.14,0.4,293.0,2,19.105,0.938,0.707,0.0,54.82
+218,3IKyE1ZP,Yediyuru,Jayanagar 5th Block,12.931,77.576,217,28,1,0.5,1.2,1396.0,0,30.011,0.793,0.0,0.836,54.303
+219,pttOvDp9,Yediyuru,Jayanagar 5th Block,12.931,77.576,711,108,1,0.51,1.2,1404.0,0,30.011,0.79,0.0,0.836,54.219
+220,Tdc5THQE,Yediyuru,Jayanagar 5th Block,12.931,77.576,353,68,1,0.56,1.4,1376.0,0,30.011,0.764,0.0,0.836,53.346
+221,4JM4AkoD,St francis College,Silk Board,12.924,77.631,356,50,1,0.34,4.8,1046.0,0,32.146,0.586,0.0,1.0,52.874
+222,FAZxR5Tk,Wilson Garden 12th Cross,Hombegowda Nagar,12.947,77.598,177,11,0,0.04,0.0,426.0,1,19.105,0.99,0.574,0.0,52.133
+223,OJPHN7RE,Mallige Hospital,Hombegowda Nagar,12.948,77.591,339,37,1,0.88,0.0,227.0,1,19.105,0.78,0.773,0.0,51.767
+224,YuYNPT8M,Mallige Hospital,Hombegowda Nagar,12.948,77.592,320,37,1,0.63,0.0,299.0,1,19.105,0.842,0.701,0.0,51.45
+225,uCReBx2X,Siddapura Ashoka piller,Hombegowda Nagar,12.946,77.589,320,37,1,1.47,0.0,93.0,1,19.105,0.633,0.907,0.0,51.317
+226,bqWBNPBV,Siddapura Ashoka piller,Hombegowda Nagar,12.946,77.589,337,35,1,1.47,0.0,99.0,1,19.105,0.633,0.901,0.0,51.117
+227,r9UMKWzO,Ragigudda Temple,Jayanagar 5th Block,12.917,77.593,1292,91,1,0.44,7.6,694.0,0,30.011,0.39,0.306,0.836,51.076
+228,fglmcIy6,Mekhri Circle,Hebbal,13.018,77.584,1801,245,1,0.04,0.5,810.0,0,24.069,0.956,0.19,0.381,50.881
+229,LotZAYs0,Vijaya College,Hombegowda Nagar,12.941,77.58,344,49,1,0.31,0.8,347.0,1,19.105,0.868,0.653,0.0,50.69
+230,gZoZ0mXu,Mekhri Circle,Hebbal,13.018,77.584,1943,251,1,0.04,0.5,816.0,0,24.069,0.956,0.184,0.381,50.681
+231,rIpACstv,Jayanagara Bus Stand,Jayanagar 5th Block,12.929,77.585,344,28,1,0.65,7.2,662.0,0,30.011,0.344,0.338,0.836,50.621
+232,station:jayanagar:platform:5,Jayanagara Bus Stand - Platform 5,Jayanagar 5th Block,12.929,77.585,0,0,0,0.65,7.3,678.0,0,30.011,0.338,0.322,0.836,49.859
+233,station:jayanagar:platform:3,Jayanagara Bus Stand - Platform 3,Jayanagar 5th Block,12.929,77.585,0,0,0,0.66,7.6,681.0,0,30.011,0.335,0.319,0.836,49.676
+234,vUnuyhp4,CS-Jayanagara TTMC,Jayanagar 5th Block,12.928,77.585,2,1,0,0.65,7.7,684.0,0,30.011,0.338,0.316,0.836,49.659
+235,WfvSObe8,Geddalahalli,Hebbal,13.031,77.577,208,10,0,1.0,0.0,643.0,0,24.069,0.75,0.357,0.381,49.589
+236,station:jayanagar:platform:2a,Jayanagara Bus Stand - Platform 2A,Jayanagar 5th Block,12.928,77.585,0,0,0,0.66,8.1,690.0,0,30.011,0.335,0.31,0.836,49.376
+237,yXt53R8A,Geddalahalli Sanjaynagara,Hebbal,13.031,77.578,203,10,0,1.0,0.0,650.0,0,24.069,0.75,0.35,0.381,49.355
+238,station:jayanagar,Jayanagara Bus Stand,Jayanagar 5th Block,12.929,77.584,0,0,0,0.64,8.2,699.0,0,30.011,0.34,0.301,0.836,49.242
+239,station:jayanagar:platform:1,Jayanagara Bus Stand - Platform 1,Jayanagar 5th Block,12.928,77.584,0,0,0,0.64,8.1,700.0,0,30.011,0.34,0.3,0.836,49.209
+240,8Vt1WJop,Wilson Garden 12th Cross,Hombegowda Nagar,12.947,77.598,1400,117,1,0.1,0.8,450.0,1,19.105,0.92,0.55,0.0,49.007
+241,KxkOKfUe,Vasanthappa Block,Hebbal,13.026,77.589,323,36,1,0.73,0.0,729.0,0,24.069,0.818,0.271,0.381,48.972
+242,fPWU3tEe,Wilson Garden 14th Main,Hombegowda Nagar,12.947,77.601,177,11,0,0.0,0.0,535.0,0,19.105,1.0,0.465,0.0,48.833
+243,M4ups13h,9th Block Jayanagara (22nd Main),Jayanagar 5th Block,12.92,77.591,4,3,0,0.27,5.2,948.0,0,30.011,0.576,0.052,0.836,48.82
+244,station:jayanagar:platform:4,Jayanagara Bus Stand - Platform 4,Jayanagar 5th Block,12.929,77.584,0,0,0,0.67,7.4,706.0,0,30.011,0.332,0.294,0.836,48.759
+245,SmJclwt2,Ragigudda Temple,Jayanagar 5th Block,12.917,77.593,1294,94,1,0.52,7.4,746.0,0,30.011,0.37,0.254,0.836,48.676
+246,E4nQ87Ir,Vasanthappa Block,Hebbal,13.026,77.589,309,40,1,0.76,0.0,734.0,0,24.069,0.81,0.266,0.381,48.555
+247,station:jayanagar:platform:2,Jayanagara Bus Stand - Platform 2,Jayanagar 5th Block,12.928,77.584,0,0,0,0.7,8.1,708.0,0,30.011,0.325,0.292,0.836,48.442
+248,E4rTb7cT,Jayanagara 5th Block,Jayanagar 5th Block,12.917,77.583,1344,95,1,0.71,3.9,940.0,0,30.011,0.555,0.06,0.836,48.388
+249,Ebc9iNZE,Jayanagara Bus Stand,Jayanagar 5th Block,12.929,77.584,25,2,0,0.7,7.6,724.0,0,30.011,0.325,0.276,0.836,47.909
+250,YMMD4iia,Jayanagara Bus Stand,Jayanagar 5th Block,12.929,77.584,997,113,1,0.74,7.3,715.0,0,30.011,0.315,0.285,0.836,47.876
+251,ROneeM9B,CS-Depot-14 Gate,Hebbal,13.029,77.593,8,3,0,0.42,3.1,634.0,0,24.069,0.683,0.366,0.381,47.645
+252,station:jayanagar:platform:6,Jayanagara Bus Stand - Platform 6,Jayanagar 5th Block,12.928,77.584,0,0,0,0.72,8.1,732.0,0,30.011,0.32,0.268,0.836,47.476
+253,yxz34pbN,Ragigudda Temple,Jayanagar 5th Block,12.917,77.593,1,1,0,0.56,7.3,791.0,0,30.011,0.36,0.209,0.836,46.842
+254,hCb4DXZI,CS-Wilson Garden 10th Cross,Hombegowda Nagar,12.947,77.598,2,1,0,0.12,1.2,499.0,1,19.105,0.888,0.501,0.0,46.294
+255,nbgH2735,Jayanagar 6 block,Jayanagar 5th Block,12.931,77.578,207,28,0,0.63,4.4,1239.0,0,30.011,0.541,0.0,0.836,45.913
+256,Edg1fxM5,Shastri Bakery,Jayanagar 5th Block,12.923,77.574,189,17,0,0.38,5.4,1058.0,0,30.011,0.535,0.0,0.836,45.713
+257,6CouzmhJ,CS-ARMY PUBLIC SCHOOL (Parachute Regiment),Hebbal,13.017,77.586,3,1,0,0.1,0.0,987.0,0,24.069,0.975,0.013,0.381,45.622
+258,fMRMuZWk,Shastri Bakery,Jayanagar 5th Block,12.924,77.574,191,24,0,0.41,5.4,1080.0,0,30.011,0.528,0.0,0.836,45.463
+259,V7ge3JZN,7th Cross Wilson Garden,Hombegowda Nagar,12.947,77.594,894,163,1,0.25,0.9,517.0,0,19.105,0.876,0.483,0.0,45.295
+260,fjnP7wRO,Jayanagara 8th Block,Jayanagar 5th Block,12.924,77.58,6,2,0,0.62,4.9,1229.0,0,30.011,0.509,0.0,0.836,44.855
+261,cXBS9M52,Depot-14 RT Nagara,Hebbal,13.028,77.594,109,23,0,0.43,4.0,658.0,0,24.069,0.619,0.342,0.381,44.706
+262,X9Q1hNGv,Jayanagara 8th Block,Jayanagar 5th Block,12.924,77.58,4,2,0,0.64,4.9,1235.0,0,30.011,0.504,0.0,0.836,44.688
+263,J76DlWNh,Jayanagara Bus Stand,Jayanagar 5th Block,12.928,77.584,742,75,1,0.81,9.3,796.0,0,30.011,0.298,0.204,0.836,44.592
+264,1EHRxE9F,JP Nagara 24th Main,Jayanagar 5th Block,12.911,77.583,69,5,0,0.55,5.7,975.0,0,30.011,0.472,0.025,0.836,44.445
+265,wiKj6cAA,7th Cross Wilson Garden,Hombegowda Nagar,12.947,77.595,899,160,1,0.24,0.9,546.0,0,19.105,0.878,0.454,0.0,44.412
+266,UZqG5Vht,Jayanagar 6 block,Jayanagar 5th Block,12.931,77.578,63,3,0,0.65,5.0,1203.0,0,30.011,0.495,0.0,0.836,44.377
+267,qn2PpSGt,ARMY PUBLIC SCHOOL (Parachute Regiment),Hebbal,13.017,77.586,4,3,0,0.12,0.4,995.0,0,24.069,0.943,0.005,0.381,44.276
+268,TYybnZ3o,Jayanagar 6 block,Jayanagar 5th Block,12.931,77.578,59,2,0,0.66,5.1,1198.0,0,30.011,0.486,0.0,0.836,44.065
+269,g9KIWsVN,R V Metro Station,Jayanagar 5th Block,12.922,77.58,37,3,0,0.58,5.5,1032.0,0,30.011,0.478,0.0,0.836,43.818
+270,MILhlDxZ,RV Dental College,Jayanagar 5th Block,12.91,77.586,235,22,1,0.56,5.7,1267.0,0,30.011,0.47,0.0,0.836,43.529
+271,RTVzsszd,JP Nagara 24th Main,Jayanagar 5th Block,12.911,77.583,34,2,0,0.56,5.9,988.0,0,30.011,0.456,0.012,0.836,43.472
+272,uN1AA5Lc,Carmel Convent Jayanagara,Hombegowda Nagar,12.927,77.597,16,2,0,0.63,0.0,541.0,0,19.105,0.842,0.459,0.0,43.383
+273,tRVe2fCs,Carmel Convent Jayanagara,Hombegowda Nagar,12.927,77.597,13,2,0,0.62,0.0,552.0,0,19.105,0.845,0.448,0.0,43.1
+274,Ghquwy15,Vijaya College,Hombegowda Nagar,12.94,77.58,338,49,1,0.28,2.4,474.0,1,19.105,0.766,0.526,0.0,43.054
+275,x6TcXToN,R V Metro Station,Jayanagar 5th Block,12.922,77.58,38,3,0,0.59,5.8,1038.0,0,30.011,0.455,0.0,0.836,43.05
+276,VFj6Snj2,Marenahalli(Marenahalli Metro Station),Jayanagar 5th Block,12.917,77.589,1293,92,1,0.9,5.1,1131.0,0,30.011,0.426,0.0,0.836,42.065
+277,z3o8kVDF,Wilson Garden 10th Cross,Hombegowda Nagar,12.946,77.596,1567,145,1,0.15,1.2,619.0,0,19.105,0.88,0.381,0.0,42.044
+278,BreXDH7z,MP Office Bangalore South,Jayanagar 5th Block,12.92,77.586,283,24,1,0.77,5.7,1358.0,0,30.011,0.417,0.0,0.836,41.779
+279,6JZ0zYCb,Ashoka Pillar,Hombegowda Nagar,12.944,77.585,169,13,0,0.95,2.1,378.0,1,19.105,0.619,0.622,0.0,41.355
+280,818BXVu4,Jayanagar 6 block,Jayanagar 5th Block,12.931,77.579,187,14,0,0.6,6.6,1128.0,0,30.011,0.398,0.0,0.836,41.14
+281,nHiyf4FC,RV Dental College,Jayanagar 5th Block,12.91,77.585,127,10,0,0.67,6.4,1212.0,0,30.011,0.394,0.0,0.836,41.014
+282,aAKqeb5s,Jayanagara 40th Cross,Jayanagar 5th Block,12.92,77.581,508,51,1,0.84,7.3,898.0,0,30.011,0.29,0.102,0.836,40.942
+283,pAuWKf6P,Jayanagara Metro Station,Jayanagar 5th Block,12.929,77.58,44,3,0,0.57,6.8,1029.0,0,30.011,0.392,0.0,0.836,40.934
+284,ZsSPT8N2,Jayanagara 40th Cross,Jayanagar 5th Block,12.92,77.581,486,52,1,0.88,8.2,901.0,0,30.011,0.28,0.099,0.836,40.509
+285,nlrpAoVB,RV Teachers College,Hombegowda Nagar,12.944,77.58,505,58,1,1.02,5.3,168.0,1,19.105,0.382,0.832,0.0,40.466
+286,W7l2tpIK,Jayanagara 5th Block,Jayanagar 5th Block,12.917,77.584,1336,92,1,0.73,6.5,1051.0,0,30.011,0.372,0.0,0.836,40.285
+287,PUKJICTR,Jayanagara Metro Station,Jayanagar 5th Block,12.93,77.58,55,5,0,0.62,7.0,1016.0,0,30.011,0.366,0.0,0.836,40.06
+288,zDEyBCW7,RV Teachers College,Hombegowda Nagar,12.944,77.58,506,61,1,1.07,4.9,196.0,1,19.105,0.397,0.804,0.0,40.029
+289,irw4IkdY,Marenahalli,Jayanagar 5th Block,12.916,77.586,293,29,1,0.69,7.0,1185.0,0,30.011,0.348,0.0,0.836,39.477
+290,cPnnjFsu,Jayanagara Metro Station,Jayanagar 5th Block,12.929,77.58,25,2,0,0.62,7.6,1048.0,0,30.011,0.345,0.0,0.836,39.376
+291,ST2NhRoM,Bengaluru Dairy Circle,Hombegowda Nagar,12.935,77.601,758,80,1,0.33,2.6,560.0,0,19.105,0.739,0.44,0.0,39.314
+292,EXK2dhW5,Bengaluru Dairy Circle,Hombegowda Nagar,12.935,77.601,856,88,1,0.33,2.5,569.0,0,19.105,0.746,0.431,0.0,39.242
+293,e77d2DR6,Jayanagara Metro Station,Jayanagar 5th Block,12.929,77.58,26,2,0,0.65,8.2,1038.0,0,30.011,0.338,0.0,0.836,39.126
+294,yGBlG1Y9,CS-Ashoka Pillar,Hombegowda Nagar,12.943,77.585,4,2,0,1.02,2.3,417.0,1,19.105,0.587,0.583,0.0,39.016
+295,uo0eGnvu,Ashoka Pillar,Hombegowda Nagar,12.943,77.585,481,46,1,1.02,2.7,416.0,1,19.105,0.56,0.584,0.0,38.136
+296,j0427dUn,RV Dental College,Jayanagar 5th Block,12.911,77.586,293,29,1,0.78,7.5,1206.0,0,30.011,0.305,0.0,0.836,38.042
+297,3dLUgZnE,5th Block Jayanagara,Jayanagar 5th Block,12.917,77.584,290,28,1,0.82,7.9,1006.0,0,30.011,0.295,0.0,0.836,37.709
+298,Zz2jNNHR,Ashoka Pillar,Hombegowda Nagar,12.943,77.585,339,37,1,0.98,3.3,406.0,1,19.105,0.529,0.594,0.0,37.432
+299,GUCZbaEe,Marenahalli Jayanagara,Jayanagar 5th Block,12.915,77.586,290,26,1,0.92,7.3,1192.0,0,30.011,0.27,0.0,0.836,36.876
+300,9gYYnZ8P,Jayanagara 3rd Block,Hombegowda Nagar,12.933,77.584,707,83,1,0.43,3.6,547.0,0,19.105,0.646,0.453,0.0,36.631
+301,dYAaSBcb,Jayanagara Telephone Exchange,Jayanagar 5th Block,12.924,77.584,798,79,1,0.97,12.1,1170.0,0,30.011,0.258,0.0,0.836,36.459
+301,Y4qwgVsA,Jayanagara Telephone Exchange,Jayanagar 5th Block,12.923,77.584,283,24,1,0.97,12.7,1194.0,0,30.011,0.258,0.0,0.836,36.459
+303,iG6w5t0F,Marenahalli(Marenahalli Metro Station),Jayanagar 5th Block,12.917,77.589,1285,90,1,1.0,7.3,1227.0,0,30.011,0.25,0.0,0.836,36.209
+303,xj1FiDKH,Jayanagara Telephone Exchange,Jayanagar 5th Block,12.924,77.584,487,53,1,1.0,12.0,1159.0,0,30.011,0.25,0.0,0.836,36.209
+305,kf3K8o2v,Ashwathnagara,Hebbal,13.027,77.58,343,11,1,1.7,19.8,377.0,1,24.069,0.075,0.623,0.381,35.955
+306,UpaWEGgK,Jayanagara 38th Cross,Jayanagar 5th Block,12.921,77.584,357,48,1,1.05,9.6,1232.0,0,30.011,0.238,0.0,0.836,35.792
+307,L15h45CO,Jayanagara 38th Cross,Jayanagar 5th Block,12.921,77.584,798,79,1,1.08,9.6,1255.0,0,30.011,0.23,0.0,0.836,35.542
+308,HFyCd8GF,Rahamathnagara,Hebbal,13.018,77.592,567,55,1,0.44,3.3,1291.0,0,24.069,0.664,0.0,0.381,34.821
+309,spfcxFHt,Rahamathnagara,Hebbal,13.018,77.592,593,49,1,0.46,3.4,1288.0,0,24.069,0.652,0.0,0.381,34.426
+310,1UeN8rzD,Ashwathnagara,Hebbal,13.027,77.58,72,7,0,2.02,20.9,368.0,1,24.069,0.0,0.632,0.381,33.755
+311,qVQBz7Wi,R T Nagar Police Station,Hebbal,13.026,77.593,355,49,1,0.74,4.4,903.0,0,24.069,0.514,0.097,0.381,33.043
+312,FmORpujN,HMT Layout RT Nagara,Hebbal,13.025,77.595,538,26,1,0.43,4.3,1083.0,0,24.069,0.598,0.0,0.381,32.621
+313,wSSWy6Fb,South End Circle Metro Station,Hombegowda Nagar,12.938,77.58,344,49,1,0.43,4.5,606.0,0,19.105,0.584,0.394,0.0,32.609
+314,tzCnW57E,Bengaluru Dairy Circle,Hombegowda Nagar,12.937,77.601,1377,193,1,0.35,2.9,761.0,0,19.105,0.714,0.239,0.0,31.762
+315,DE9s1ahM,HMT Layout RT Nagara,Hebbal,13.025,77.595,600,30,1,0.43,4.7,1074.0,0,24.069,0.571,0.0,0.381,31.708
+316,pCiQVcc0,Bengaluru Dairy Circle,Hombegowda Nagar,12.937,77.602,1346,184,1,0.37,2.9,773.0,0,19.105,0.709,0.227,0.0,31.196
+317,MSY4IHTA,Jayanagara 3rd Block,Hombegowda Nagar,12.932,77.584,1090,112,1,0.57,5.3,561.0,0,19.105,0.494,0.439,0.0,31.116
+318,uf9DjpjU,Gunasheela Hospital,Hombegowda Nagar,12.941,77.576,631,85,1,0.53,4.5,638.0,0,19.105,0.559,0.362,0.0,30.709
+319,7GYjD84l,MN Krishna Rao Park,Hombegowda Nagar,12.943,77.577,3,1,0,1.0,4.9,501.0,0,19.105,0.414,0.499,0.0,30.446
+320,BHoHJWme,R T Nagar Police Station,Hebbal,13.025,77.593,600,30,1,0.72,4.7,985.0,0,24.069,0.498,0.015,0.381,29.792
+321,6Dh5soaD,Lalbagh Hopcoms,Hombegowda Nagar,12.951,77.591,883,163,1,0.66,5.4,576.0,0,19.105,0.465,0.424,0.0,29.638
+322,yMmWncyd,R T Nagar Police Station,Hebbal,13.025,77.593,10,5,0,0.75,4.9,971.0,0,24.069,0.477,0.029,0.381,29.552
+323,bCP1E3Z3,Lalbagh Hopcoms,Hombegowda Nagar,12.951,77.591,1220,198,1,0.62,5.5,587.0,0,19.105,0.468,0.413,0.0,29.376
+324,s4oSzpv5,Lalbagh West Gate (Lalbagh Metro Station),Hombegowda Nagar,12.947,77.58,319,44,1,0.84,7.0,455.0,1,19.105,0.311,0.545,0.0,28.518
+325,p22lKXtJ,Nimhans Hospital,Hombegowda Nagar,12.939,77.598,2122,271,1,0.9,0.6,889.0,0,19.105,0.734,0.111,0.0,28.163
+326,3YD5oFNe,South End Circle,Hombegowda Nagar,12.937,77.58,735,105,1,0.46,4.4,740.0,0,19.105,0.584,0.26,0.0,28.121
+327,YCiMYmud,South End Circle,Hombegowda Nagar,12.937,77.58,3,1,0,0.47,4.4,745.0,0,19.105,0.581,0.255,0.0,27.871
+328,say5n777,Ganga Nagara,Hebbal,13.025,77.592,1,1,0,0.86,5.6,953.0,0,24.069,0.401,0.047,0.381,27.637
+329,GrFFSG6J,Shanthi Talkies,Hombegowda Nagar,12.937,77.577,135,9,0,0.23,3.8,877.0,0,19.105,0.682,0.123,0.0,26.841
+330,lanP5QZB,Lalbagh West Gate (Lalbagh Metro Station),Hombegowda Nagar,12.948,77.58,509,59,1,0.92,7.3,469.0,1,19.105,0.27,0.531,0.0,26.7
+331,ewDueoEA,Shanthi Talkies,Hombegowda Nagar,12.937,77.579,151,12,0,0.46,4.3,812.0,0,19.105,0.59,0.188,0.0,25.949
+332,hn8UrEsV,Lalbagh Hopcoms,Hombegowda Nagar,12.952,77.591,37,6,0,0.81,5.9,621.0,0,19.105,0.393,0.379,0.0,25.746
+333,AXdOgQCY,Madhavan Park,Hombegowda Nagar,12.936,77.584,906,96,1,0.61,6.0,671.0,0,19.105,0.437,0.329,0.0,25.518
+334,MxqHPLRT,Lakkasandra,Hombegowda Nagar,12.944,77.597,2194,275,1,0.73,3.2,841.0,0,19.105,0.598,0.159,0.0,25.244
+335,EooRFO7n,Lalbagh Hopcoms,Hombegowda Nagar,12.952,77.591,62,12,0,0.81,6.1,628.0,0,19.105,0.38,0.372,0.0,25.056
+336,RvDZlJi7,Lakkasandra,Hombegowda Nagar,12.943,77.597,2371,280,1,0.84,2.0,905.0,0,19.105,0.653,0.095,0.0,24.934
+337,PbbRmkxU,R T Nagar Police Station,Hebbal,13.024,77.593,574,57,1,0.72,6.7,1050.0,0,24.069,0.361,0.0,0.381,24.725
+338,tUgc1G9Z,Chandrappanagara,Hombegowda Nagar,12.941,77.603,67,4,0,0.16,3.9,1128.0,0,19.105,0.693,0.0,0.0,23.096
+339,sljvRLG9,Chandrappanagara,Hombegowda Nagar,12.941,77.602,239,14,1,0.16,4.0,1142.0,0,19.105,0.686,0.0,0.0,22.868
+340,CQ2YmwkU,South End Circle,Hombegowda Nagar,12.936,77.58,929,119,1,0.55,5.1,828.0,0,19.105,0.513,0.172,0.0,22.839
+341,m8gfCdVM,Bengaluru Dairy Circle,Hombegowda Nagar,12.939,77.602,235,15,1,0.28,3.8,990.0,0,19.105,0.67,0.01,0.0,22.658
+342,XEjFHhPQ,South End Circle (VEIT College),Hombegowda Nagar,12.937,77.582,138,10,0,0.59,5.9,772.0,0,19.105,0.448,0.228,0.0,22.546
+343,Pqtvv2Ma,R T Nagara Post Office,Hebbal,13.022,77.593,593,49,1,0.89,8.4,1127.0,0,24.069,0.277,0.0,0.381,21.939
+344,YTCxIEPc,CS-Madhavan Park,Hombegowda Nagar,12.937,77.584,1,1,0,0.63,8.1,690.0,0,19.105,0.342,0.31,0.0,21.75
+345,YGYXDwsp,R T Nagara Post Office,Hebbal,13.022,77.593,568,56,1,0.94,8.0,1132.0,0,24.069,0.265,0.0,0.381,21.522
+346,P5JGAFr7,Nimhans Hospital,Hombegowda Nagar,12.94,77.598,2299,277,1,1.29,0.8,979.0,0,19.105,0.623,0.021,0.0,21.457
+347,7aulEP30,Rani Saraladevi High School,Hombegowda Nagar,12.938,77.585,504,46,1,0.81,11.6,679.0,0,19.105,0.298,0.321,0.0,20.617
+348,H0uzT4j2,Madhavan Park,Hombegowda Nagar,12.937,77.583,272,38,1,0.68,6.9,766.0,0,19.105,0.357,0.234,0.0,19.713
+349,Nw8Lnj3F,Rani Saraladevi High School,Hombegowda Nagar,12.939,77.585,481,46,1,1.01,14.0,670.0,0,19.105,0.248,0.33,0.0,19.25
+350,s4kJ3E1H,Nanda Talkies,Hombegowda Nagar,12.932,77.58,929,119,1,0.43,6.3,952.0,0,19.105,0.461,0.048,0.0,16.966
+351,6dbmyBSy,Nanda Talkies,Hombegowda Nagar,12.933,77.58,780,113,1,0.57,6.3,965.0,0,19.105,0.426,0.035,0.0,15.366

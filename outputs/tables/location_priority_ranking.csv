@@ -1,0 +1,89 @@
+stop_name,station,score,c_pedestrian,c_waterlog,c_pollution,trips_wed,n_stops
+Central Silk Board,Silk Board,95.875,0.948,0.928,1.0,6191,6
+Nayandahalli Junction,Bapuji Nagar,92.091,0.99,0.941,0.832,1225,2
+Mysore Road Bus Station,Bapuji Nagar,90.805,0.956,0.936,0.832,4760,2
+Mysore Road Metro Station,Bapuji Nagar,89.741,0.988,0.873,0.832,3992,2
+Deepanjalinagara,Bapuji Nagar,88.591,1.0,0.826,0.832,2552,2
+Madivala,Silk Board,87.847,0.856,0.779,1.0,3433,2
+Kuvempunagara Bus Stand (BTM Layout),Silk Board,87.124,0.675,0.939,1.0,1685,2
+Kuvempunagara ( BTM Layout),Silk Board,85.086,0.672,0.881,1.0,1298,1
+Bommanahalli Hosur Road,Silk Board,84.576,0.826,0.711,1.0,566,2
+Jayanagara Pump House,Jayanagar 5th Block,82.609,0.95,0.692,0.836,637,2
+New Guddadahalli,Bapuji Nagar,82.058,1.0,0.63,0.832,3721,2
+Banashankari Bus Station,Jayanagar 5th Block,81.403,0.888,0.718,0.836,8048,3
+BHEL Mysore Road,Bapuji Nagar,78.833,0.897,0.636,0.832,4006,2
+HSR layout 14th Main,Silk Board,76.782,0.884,0.419,1.0,1688,1
+Roopena Agrahara,Silk Board,76.165,0.977,0.308,1.0,4044,5
+14th Main HSR Layout,Silk Board,75.913,0.866,0.411,1.0,1699,1
+BCC Layout Cross,Bapuji Nagar,75.225,0.95,0.475,0.832,1184,1
+Sanjay Gandhi Hospital,Jayanagar 5th Block,74.092,0.932,0.454,0.836,949,2
+SI Apartment HSR Layout,Silk Board,73.87,0.87,0.346,1.0,3627,2
+Madivala Masidi,Silk Board,73.083,0.968,0.225,1.0,385,1
+Carmel Convent Jayanagara,Jayanagar 5th Block,72.259,0.848,0.484,0.836,637,2
+East End Jayanagara,Jayanagar 5th Block,72.07,0.534,0.792,0.836,1794,2
+Sangam Circle,Jayanagar 5th Block,71.951,0.798,0.524,0.836,3706,2
+Koramangala BDA Complex,Silk Board,69.85,0.908,0.188,1.0,838,2
+Veterinary Hospital,Hebbal,69.689,1.0,0.71,0.381,3328,2
+Canara Bank Hebbala,Hebbal,69.172,0.992,0.702,0.381,3381,2
+Hebbala,Hebbal,68.491,0.927,0.747,0.381,4208,3
+Hampinagara RPC Layout,Bapuji Nagar,68.158,1.0,0.213,0.832,358,1
+Jayanagara Church,Jayanagar 5th Block,66.453,0.703,0.454,0.836,608,1
+9th Block Jayanagara (40th Cross),Jayanagar 5th Block,66.376,0.995,0.16,0.836,250,1
+CBI,Hebbal,66.137,0.929,0.674,0.381,3732,4
+Banashankari Hunasemara,Jayanagar 5th Block,65.253,0.749,0.372,0.836,1950,4
+Kendriya Sadana Koramangala,Silk Board,64.729,0.775,0.167,1.0,383,1
+Tavarekere Metro Station(Bannerughatta Road),Hombegowda Nagar,62.617,0.918,0.961,0.0,1416,2
+Attiguppe,Bapuji Nagar,62.525,1.0,0.044,0.832,2556,2
+Kudure Mukha Colony,Silk Board,62.267,0.735,0.133,1.0,2354,2
+BTM Layout 16th Main,Silk Board,61.674,0.663,0.187,1.0,2876,2
+Attiguppe Metro Station,Bapuji Nagar,61.058,1.0,0.0,0.832,1445,1
+Income Tax Layout,Bapuji Nagar,61.058,1.0,0.0,0.832,723,2
+Chandra Public School,Bapuji Nagar,61.058,1.0,0.0,0.832,675,2
+Ganesha Temple Chandra Layout,Bapuji Nagar,61.058,1.0,0.0,0.832,698,2
+Krupanidhi College,Silk Board,60.847,0.75,0.075,1.0,1643,1
+Deepak Nursing Home,Jayanagar 5th Block,59.959,0.962,0.0,0.836,1428,2
+Mysore Road TollGate,Bapuji Nagar,56.528,0.814,0.05,0.832,1859,1
+Water Tank Koramangala,Silk Board,56.204,0.673,0.013,1.0,2748,4
+Jayanagara Bus Stand,Jayanagar 5th Block,56.039,0.375,0.47,0.836,2612,4
+St francis College,Silk Board,55.784,0.674,0.0,1.0,729,2
+Wilson Garden Police Station,Hombegowda Nagar,54.82,0.938,0.707,0.0,1744,1
+Yediyuru,Jayanagar 5th Block,54.303,0.793,0.0,0.836,1281,3
+Mallige Hospital,Hombegowda Nagar,51.767,0.78,0.773,0.0,659,2
+Siddapura Ashoka piller,Hombegowda Nagar,51.317,0.633,0.907,0.0,657,2
+Ragigudda Temple,Jayanagar 5th Block,51.076,0.39,0.306,0.836,2586,2
+Mekhri Circle,Hebbal,50.881,0.956,0.19,0.381,3744,2
+Vijaya College,Hombegowda Nagar,50.69,0.868,0.653,0.0,682,2
+Wilson Garden 12th Cross,Hombegowda Nagar,49.007,0.92,0.55,0.0,1400,1
+Vasanthappa Block,Hebbal,48.972,0.818,0.271,0.381,632,2
+Jayanagara 5th Block,Jayanagar 5th Block,48.388,0.555,0.06,0.836,2680,2
+7th Cross Wilson Garden,Hombegowda Nagar,45.295,0.876,0.483,0.0,1793,2
+RV Dental College,Jayanagar 5th Block,43.529,0.47,0.0,0.836,528,2
+Marenahalli(Marenahalli Metro Station),Jayanagar 5th Block,42.065,0.426,0.0,0.836,2578,2
+Wilson Garden 10th Cross,Hombegowda Nagar,42.044,0.88,0.381,0.0,1567,1
+MP Office Bangalore South,Jayanagar 5th Block,41.779,0.417,0.0,0.836,283,1
+Jayanagara 40th Cross,Jayanagar 5th Block,40.942,0.29,0.102,0.836,994,2
+RV Teachers College,Hombegowda Nagar,40.466,0.382,0.832,0.0,1011,2
+Marenahalli,Jayanagar 5th Block,39.477,0.348,0.0,0.836,293,1
+Bengaluru Dairy Circle,Hombegowda Nagar,39.314,0.739,0.44,0.0,4572,5
+Ashoka Pillar,Hombegowda Nagar,38.136,0.56,0.584,0.0,820,2
+5th Block Jayanagara,Jayanagar 5th Block,37.709,0.295,0.0,0.836,290,1
+Marenahalli Jayanagara,Jayanagar 5th Block,36.876,0.27,0.0,0.836,290,1
+Jayanagara 3rd Block,Hombegowda Nagar,36.631,0.646,0.453,0.0,1797,2
+Jayanagara Telephone Exchange,Jayanagar 5th Block,36.459,0.258,0.0,0.836,1568,3
+Ashwathnagara,Hebbal,35.955,0.075,0.623,0.381,343,1
+Jayanagara 38th Cross,Jayanagar 5th Block,35.792,0.238,0.0,0.836,1155,2
+Rahamathnagara,Hebbal,34.821,0.664,0.0,0.381,1160,2
+R T Nagar Police Station,Hebbal,33.043,0.514,0.097,0.381,1529,3
+HMT Layout RT Nagara,Hebbal,32.621,0.598,0.0,0.381,1138,2
+South End Circle Metro Station,Hombegowda Nagar,32.609,0.584,0.394,0.0,344,1
+Gunasheela Hospital,Hombegowda Nagar,30.709,0.559,0.362,0.0,631,1
+Lalbagh Hopcoms,Hombegowda Nagar,29.638,0.465,0.424,0.0,2103,2
+Lalbagh West Gate (Lalbagh Metro Station),Hombegowda Nagar,28.518,0.311,0.545,0.0,828,2
+Nimhans Hospital,Hombegowda Nagar,28.163,0.734,0.111,0.0,4421,2
+South End Circle,Hombegowda Nagar,28.121,0.584,0.26,0.0,1664,2
+Madhavan Park,Hombegowda Nagar,25.518,0.437,0.329,0.0,1178,2
+Lakkasandra,Hombegowda Nagar,25.244,0.598,0.159,0.0,4565,2
+Chandrappanagara,Hombegowda Nagar,22.868,0.686,0.0,0.0,239,1
+R T Nagara Post Office,Hebbal,21.939,0.277,0.0,0.381,1161,2
+Rani Saraladevi High School,Hombegowda Nagar,20.617,0.298,0.321,0.0,985,2
+Nanda Talkies,Hombegowda Nagar,16.966,0.461,0.048,0.0,1709,2

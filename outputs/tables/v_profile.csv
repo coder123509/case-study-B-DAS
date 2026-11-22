@@ -1,0 +1,8 @@
+source,format,structure,rows,mb_disk,mb_raw,resolution,readings_per_hour,arrives
+Air quality (OpenAQ archive of CPCB/KSPCB),CSV (gzip),"structured, long format",1271160,6.788699150085449,158.64014148712158,15 min,144.0,every 15 min from CPCB CAAQMS; archive files appear daily
+Weather (Open-Meteo Historical API),JSON,semi-structured (arrays inside an object),8784,0.39432239532470703,0.39432239532470703,1 hour,7.0,"reanalysis archive, updated daily with a few days' delay"
+"BMTC GTFS (stops, trips, stop_times)",CSV text files in a ZIP,"structured, relational",2318463,88.68113803863525,455.36559104919434,static timetable,,feed rebuilt every few weeks by the maintainer
+OpenStreetMap (Overpass API),JSON,semi-structured (nested tags + geometry),12980,5.978984832763672,5.978984832763672,snapshot 2026-11-21,,"volunteer edits, live within minutes"
+BBMP flood-vulnerable points,PDF (exported from Excel),semi-structured table in a document,191,0.05428791046142578,0.05428791046142578,one list for 2020-21,,once a year at best
+News headlines (GDELT DOC API),JSON,unstructured text inside JSON,931,0.5960054397583008,0.5960054397583008,per article,0.11,GDELT updates every 15 min
+Holiday calendar (hand-built),CSV typed from PDF,structured,365,0.0025091171264648438,,1 day,,once a year (govt notification)

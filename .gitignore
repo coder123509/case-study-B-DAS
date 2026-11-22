@@ -1,0 +1,23 @@
+# big raw file (93 MB) - re-download with: python src/01_download.py gtfs
+data/raw/gtfs/*.zip
+
+# local databases
+data/*.sqlite
+
+# python / notebooks / editors
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Excel lock files and Spark scratch
+~$*.xlsx
+spark-warehouse/
+metastore_db/
+derby.log
+
+# secrets
+.env

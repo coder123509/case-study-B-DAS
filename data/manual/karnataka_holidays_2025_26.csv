@@ -1,0 +1,25 @@
+date,day_in_notification,holiday_name,holiday_type,source,typed_by,notes
+2025-03-30,Sunday,Ugadi,festival_on_weekend,DPAR 16 HHL 2024 (note 1),,falls on Sunday so not a separate general holiday
+2025-03-31,Monday,Khutub-E-Ramzan,general_holiday,DPAR 16 HHL 2024,,PDF OCR shows "3t_03.2025"
+2025-04-10,Thursday,Mahaveera Jayanthi,general_holiday,DPAR 16 HHL 2024,,PDF OCR shows "r0.04.202s"
+2025-04-14,Monday,Dr. B.R. Ambedkar Jayanthi,general_holiday,DPAR 16 HHL 2024,,
+2025-04-18,Friday,Good Friday,general_holiday,DPAR 16 HHL 2024,,
+2025-04-30,Wednesday,Basava Jayanthi / Akshaya Tritiya,general_holiday,DPAR 16 HHL 2024,,
+2025-05-01,Thursday,May Day,general_holiday,DPAR 16 HHL 2024,,
+2025-06-07,Saturday,Bakrid,general_holiday,DPAR 16 HHL 2024,,first Saturday of June so it is a working Saturday otherwise
+2025-07-06,Sunday,Last Day of Moharam,festival_on_weekend,DPAR 16 HHL 2024 (note 1),,falls on Sunday
+2025-08-15,Friday,Independence Day,general_holiday,DPAR 16 HHL 2024,,
+2025-08-27,Wednesday,Varasiddhi Vinayaka Vrata (Ganesh Chaturthi),general_holiday,DPAR 16 HHL 2024,,
+2025-09-05,Friday,Eid-Milad,general_holiday,DPAR 16 HHL 2024,,
+2025-09-21,Sunday,Mahalaya Amavasye,festival_on_weekend,DPAR 16 HHL 2024 (note 1),,falls on Sunday
+2025-10-01,Wednesday,Mahanavami / Ayudhapooja,general_holiday,DPAR 16 HHL 2024,,"notification prints 'Mahanavami/Ayudhapooja, Vijayadasami' on this row; OCR shows '01. 0.2025'"
+2025-10-02,Thursday,Gandhi Jayanthi / Vijayadashami,general_holiday,DPAR 16 HHL 2024,,Vijayadashami also fell on 2 Oct 2025
+2025-10-07,Tuesday,Maharshi Valmiki Jayanthi,general_holiday,DPAR 16 HHL 2024,,
+2025-10-20,Monday,Naraka Chaturdashi (Deepavali),general_holiday,DPAR 16 HHL 2024,,fireworks night - genuine pollution event
+2025-10-22,Wednesday,Balipadyami / Deepavali,general_holiday,DPAR 16 HHL 2024,,fireworks night - genuine pollution event
+2025-11-01,Saturday,Kannada Rajyothsava,general_holiday,DPAR 16 HHL 2024,,first Saturday of November
+2025-11-08,Saturday,Kanakadasa Jayanthi,festival_on_weekend,DPAR 16 HHL 2024 (note 1),,falls on second Saturday
+2025-12-25,Thursday,Christmas,general_holiday,DPAR 16 HHL 2024,,OCR shows "25. 2.2025"
+2026-01-15,Thursday,Uttarayana Punyakala / Makara Sankranti,general_holiday,DPAR 16 HHL 2025 (as reported in news; see source register),,Central Govt offices in Karnataka observe it on 14 Jan 2026 (cg_offices PDF)
+2026-01-26,Monday,Republic Day,general_holiday,DPAR 16 HHL 2025 + cg_offices_karnataka_holidays_2026.pdf,,
+2026-02-15,Sunday,Maha Shivaratri,festival_on_weekend,DPAR 16 HHL 2025 (as reported) + cg_offices PDF (restricted holiday),,falls on Sunday
