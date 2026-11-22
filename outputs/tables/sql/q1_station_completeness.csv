@@ -1,0 +1,6 @@
+station_name,operator,station_hours,hours_missing,pct_missing,hours_interpolated
+Bapuji Nagar,KSPCB,8760,2098,23.9,192
+Silk Board,KSPCB,8760,1483,16.9,253
+Jayanagar 5th Block,KSPCB,8760,1216,13.9,366
+Hebbal,KSPCB,8760,1155,13.2,479
+Hombegowda Nagar,KSPCB,8760,876,10.0,188

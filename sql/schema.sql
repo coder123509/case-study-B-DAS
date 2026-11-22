@@ -105,7 +105,7 @@ CREATE TABLE waterlogging_locations (
 
 -- BMTC stops within 1.5 km of a station
 CREATE TABLE bus_stops (
-    stop_id             VARCHAR(16)   NOT NULL,
+    stop_id             VARCHAR(64)   NOT NULL,
     stop_code           VARCHAR(10),
     stop_name           VARCHAR(120)  NOT NULL,
     lat                 DECIMAL(9,6)  NOT NULL,
@@ -120,7 +120,7 @@ CREATE TABLE bus_stops (
 
 -- what OpenStreetMap shows within 300 m of each stop (1:1 with bus_stops)
 CREATE TABLE pedestrian_features (
-    stop_id                      VARCHAR(16)  NOT NULL,
+    stop_id                      VARCHAR(64)  NOT NULL,
     major_road_m                 INT          NOT NULL,
     minor_road_m                 INT          NOT NULL,
     sidewalk_m                   INT          NOT NULL,

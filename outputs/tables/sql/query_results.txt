@@ -1,0 +1,124 @@
+Q1 (JOIN + GROUP BY) How complete is each station's hourly PM2.5 record?
+       station_name operator  station_hours  hours_missing  pct_missing  hours_interpolated
+       Bapuji Nagar    KSPCB           8760           2098         23.9                 192
+         Silk Board    KSPCB           8760           1483         16.9                 253
+Jayanagar 5th Block    KSPCB           8760           1216         13.9                 366
+             Hebbal    KSPCB           8760           1155         13.2                 479
+   Hombegowda Nagar    KSPCB           8760            876         10.0                 188
+(5 rows)
+stored: outputs/tables/sql/q1_station_completeness.csv
+
+Q2 (GROUP BY) Which cleaning flags removed readings, per station and pollutant?
+ station_id parameter         flag  n_readings
+       6973      pm25 pm25_gt_pm10         345
+       6975      pm25 pm25_gt_pm10         157
+       6973        co  flatline_6h         145
+       6983      pm25 pm25_gt_pm10         119
+       6983      pm25  flatline_6h         113
+       6984      pm25 pm25_gt_pm10          68
+       6974        co        spike          46
+       6973      pm25   error_code          34
+       6974       no2        spike          25
+       6975        co  flatline_6h          25
+       6975        co        spike          24
+       6974        co     negative          20
+       6984      pm25        spike          13
+       6974      pm25 pm25_gt_pm10          12
+       6975       no2        spike           7
+       6974      pm10        spike           6
+       6975      pm10        spike           6
+       6973       no2        spike           5
+       6973      pm10        spike           4
+       6973        co        spike           3
+       6974      pm25        spike           2
+       6973       no2 sentinel_999           1
+       6983       no2        spike           1
+       6984        co        spike           1
+       6984      pm10        spike           1
+(25 rows)
+stored: outputs/tables/sql/q2_cleaning_flags.csv
+
+Q3 (GROUP BY) Hour-by-weekday average PM2.5 across all stations (the heatmap, in SQL)
+ weekday  hour_ist  avg_pm25  n_hours
+Saturday        20      32.1      237
+  Friday        20      31.8      234
+ Tuesday        21      31.7      224
+  Friday        21      31.6      234
+ Tuesday        20      31.6      220
+  Monday        21      31.3      208
+  Monday        22      31.3      207
+Saturday        21      31.3      237
+ Tuesday        22      31.2      224
+  Monday        23      30.9      208
+(10 rows)
+stored: outputs/tables/sql/q3_pm25_hour_weekday_top10.csv
+
+Q4 (JOIN x3 + GROUP BY) Evening-commute PM2.5 in rainy vs dry hours, by season, working days only
+     season  is_rainy_hour  station_hours  avg_pm25  avg_no2
+ ne_monsoon              0           1042      35.3     23.1
+ ne_monsoon              1             62      23.3     20.4
+pre_monsoon              0           1147      28.9     20.8
+pre_monsoon              1             78      19.3     13.8
+ sw_monsoon              0           1425      15.8     14.0
+ sw_monsoon              1            249      14.2     12.9
+     winter              0            701      39.3     46.3
+(7 rows)
+stored: outputs/tables/sql/q4_evening_rain_vs_dry.csv
+
+Q5 (JOIN + GROUP BY) When does rain hit the evening commute? Share of rainy hours per month.
+ month  pct_evening_hours_rainy  pct_morning_hours_rainy  rain_mm_month
+     7                     18.5                      4.3          190.0
+     8                     16.9                      4.3          176.0
+     9                     14.2                      5.6          126.0
+    10                     13.7                      5.4          196.0
+     5                     12.9                      6.5          159.0
+     6                     10.0                      3.3           86.0
+     4                      6.7                      2.2           32.0
+     3                      2.4                      0.0           29.0
+    12                      0.8                      0.0           12.0
+    11                      0.8                      2.2           23.0
+     2                      0.0                      0.0            0.0
+     1                      0.0                      0.0            4.0
+(12 rows)
+stored: outputs/tables/sql/q5_rain_timing_by_month.csv
+
+Q6 (JOIN x3 + GROUP BY) Per station area: stops with no mapped footpath that are also near a flood point
+       station_name  stops  stops_no_mapped_footpath  stops_near_flood_point  both_problems  bus_trips_wed
+       Bapuji Nagar     62                        43                      22              8          31389
+         Silk Board     85                         4                      47              2          37281
+   Hombegowda Nagar     60                         2                      21              1          37946
+             Hebbal     39                         2                      17              1          25603
+Jayanagar 5th Block    105                         8                      21              0          39779
+(5 rows)
+stored: outputs/tables/sql/q6_stops_footpath_and_flood.csv
+
+Q7 (JOIN x3) The 10 busiest stops with no mapped footpath, and their nearest BBMP flood point
+              stop_name         area  trips_wed  crossings_n  nearest_waterlog_m                           nearest_flood_point severity
+Mysore Road Bus Station Bapuji Nagar       2785            1                 281    Sri Galianjaneya swamy temple, Mysore road   severe
+       BHEL Mysore Road Bapuji Nagar       2016            2                 384             Kavika Bridge to Nice road bridge moderate
+       BHEL Mysore Road Bapuji Nagar       1990            2                 364             Kavika Bridge to Nice road bridge moderate
+       New Guddadahalli Bapuji Nagar       1861            0                 545                Hosaguddadahalli, Bapujinagara moderate
+       New Guddadahalli Bapuji Nagar       1860            0                 370                Hosaguddadahalli, Bapujinagara moderate
+       Roopena Agrahara   Silk Board       1804            1                 707                           Silk Board junction moderate
+    Veterinary Hospital       Hebbal       1685            0                 501 A Block in ward no.20 of Hebbal constituency. moderate
+    Veterinary Hospital       Hebbal       1643            0                 290 A Block in ward no.20 of Hebbal constituency. moderate
+       Deepanjalinagara Bapuji Nagar       1448            0                 174             Kavika Bridge to Nice road bridge moderate
+Attiguppe Metro Station Bapuji Nagar       1445            0                1173                Hosaguddadahalli, Bapujinagara moderate
+(10 rows)
+stored: outputs/tables/sql/q7_busiest_stops_no_footpath.csv
+
+Q8 (JOIN + GROUP BY + subquery) Waterlogging headlines vs monthly rain
+ month  waterlog_headlines  rain_mm
+     5                  44    159.0
+     8                  18    176.0
+    10                   8    196.0
+     3                   5     29.0
+     6                   3     86.0
+     4                   2     32.0
+    11                   2     23.0
+     9                   1    126.0
+     1                   0      4.0
+     2                   0      0.0
+    12                   0     12.0
+(11 rows)
+stored: outputs/tables/sql/q8_headlines_vs_rain.csv

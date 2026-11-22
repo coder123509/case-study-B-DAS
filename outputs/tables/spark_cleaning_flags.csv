@@ -1,0 +1,8 @@
+flag,count
+ok,487032
+pm25_gt_pm10,701
+flatline_6h,283
+spike,144
+error_code,34
+negative,20
+sentinel_999,1

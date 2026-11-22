@@ -125,7 +125,9 @@ df = df.withColumn("value", F.when(F.col("flag") == "ok", F.col("value")))
 df.cache()
 note("3a readings after cleaning (flagged rows kept as NULL)", df)
 note("3b valid readings", df.filter(F.col("flag") == "ok"))
-df.groupBy("flag").count().orderBy(F.desc("count")).show()
+flags = df.groupBy("flag").count().orderBy(F.desc("count"))
+flags.show()
+flags.toPandas().to_csv(C.TABLES / "spark_cleaning_flags.csv", index=False)
 
 # ------------------------------------------------------------------ 4. resample to hourly
 hourly_long = (df.groupBy("station_id", "parameter", "slot")

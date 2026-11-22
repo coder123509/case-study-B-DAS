@@ -109,17 +109,34 @@ def main():
         text = (C.ROOT / "sql" / "queries.sql").read_text(encoding="utf-8")
         import re
         blocks = re.split(r"(?m)^-- Q", text)[1:]          # every block starts at a line "-- Qn"
+        sql_dir = C.TABLES / "sql"
+        sql_dir.mkdir(parents=True, exist_ok=True)
+        files = {
+            "Q1": "q1_station_completeness.csv",
+            "Q2": "q2_cleaning_flags.csv",
+            "Q3": "q3_pm25_hour_weekday_top10.csv",
+            "Q4": "q4_evening_rain_vs_dry.csv",
+            "Q5": "q5_rain_timing_by_month.csv",
+            "Q6": "q6_stops_footpath_and_flood.csv",
+            "Q7": "q7_busiest_stops_no_footpath.csv",
+            "Q8": "q8_headlines_vs_rain.csv",
+        }
         report = []
         for b in blocks:
             title = "Q" + b.splitlines()[0].strip()
+            qid = title.split()[0]
             sql = "\n".join(l for l in b.splitlines()[1:] if not l.strip().startswith("--")).strip().rstrip(";")
             try:
                 res = pd.read_sql_query(sql, conn) if USE_SQLITE else _mysql_query(cur, sql)
             except Exception as err:                       # e.g. news table not loaded yet
                 res = pd.DataFrame({"error": [str(err)]})
-            report.append(f"{title}\n{res.to_string(index=False)}\n")
-            print(f"\n{title}\n{res.head(12).to_string(index=False)}")
-        (C.TABLES / "sql_results.txt").write_text("\n".join(report), encoding="utf-8")
+            path = sql_dir / files.get(qid, f"{qid.lower()}.csv")
+            res.to_csv(path, index=False)
+            report.append(f"{title}\n{res.to_string(index=False, max_rows=None)}\n({len(res)} rows)\nstored: outputs/tables/sql/{path.name}\n")
+            print(f"\n{title}\n{res.head(12).to_string(index=False)}\n({len(res)} rows) -> outputs/tables/sql/{path.name}")
+        full = "\n".join(report)
+        (C.TABLES / "sql_results.txt").write_text(full, encoding="utf-8")
+        (sql_dir / "query_results.txt").write_text(full, encoding="utf-8")
     conn.close()
 
 

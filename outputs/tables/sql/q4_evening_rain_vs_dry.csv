@@ -1,0 +1,8 @@
+season,is_rainy_hour,station_hours,avg_pm25,avg_no2
+ne_monsoon,0,1042,35.3,23.1
+ne_monsoon,1,62,23.3,20.4
+pre_monsoon,0,1147,28.9,20.8
+pre_monsoon,1,78,19.3,13.8
+sw_monsoon,0,1425,15.8,14.0
+sw_monsoon,1,249,14.2,12.9
+winter,0,701,39.3,46.3

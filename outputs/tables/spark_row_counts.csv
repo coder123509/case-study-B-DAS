@@ -1,0 +1,10 @@
+step,rows
+"1 raw rows (all parameters, 5 stations)",1271160
+2 pollutant readings inside the study window,488215
+3a readings after cleaning (flagged rows kept as NULL),488215
+3b valid readings,487032
+4 hourly station-slots with at least one reading,37035
+5a weather rows after exploding the JSON arrays,8784
+5b weather hourly slots inside the study window,8760
+6 joined station-hours (AQ x weather),37035
+7a hour x weekday cells,168
