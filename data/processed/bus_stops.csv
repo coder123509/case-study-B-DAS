@@ -306,12 +306,12 @@ zjLxpOFn,34278,Attiguppe,12.95809,77.53395,6974,934.0,1245,109
 zk76TN0N,38206,Canara Bank Hebbala,13.03581,77.58892,6984,809.0,1690,255
 station:banashankari,,Banashankari Bus Station,12.917583581722688,77.57289111614229,6973,1356.0,0,0
 station:banashankari:platform:1,,Banashankari Bus Station - Platform 1,12.917360201760564,77.57303997874261,6973,1348.0,0,0
-station:banashankari:platform:2,,Banashankari Bus Station - Platform 2,12.917364123258093,77.57289916276933,6973,1362.0,0,0
+station:banashankari:platform:2,,Banashankari Bus Station - Platform 2,12.917364123258091,77.57289916276933,6973,1362.0,0,0
 station:banashankari:platform:3,,Banashankari Bus Station - Platform 3,12.917747122553903,77.5730386376381,6973,1336.0,0,0
-station:banashankari:platform:4,,Banashankari Bus Station - Platform 4,12.917796794774508,77.57290318608285,6973,1348.0,0,0
+station:banashankari:platform:4,,Banashankari Bus Station - Platform 4,12.917796794774507,77.57290318608285,6973,1348.0,0,0
 station:banashankari:platform:5,,Banashankari Bus Station - Platform 5,12.917662156890506,77.57290855050087,6973,1352.0,0,0
-station:banashankari:platform:6,,Banashankari Bus Station - Platform 6,12.917500068467865,77.57290452718736,6973,1357.0,0,0
-station:banashankari:platform:7,,Banashankari Bus Station - Platform 7,12.917407259726891,77.57277444005013,6973,1374.0,0,0
+station:banashankari:platform:6,,Banashankari Bus Station - Platform 6,12.917500068467863,77.57290452718736,6973,1357.0,0,0
+station:banashankari:platform:7,,Banashankari Bus Station - Platform 7,12.917407259726893,77.57277444005013,6973,1374.0,0,0
 station:banashankari:platform:8,,Banashankari Bus Station - Platform 8,12.917612484643122,77.57277444005013,6973,1367.0,0,0
 station:banashankari:platform:9,,Banashankari Bus Station - Platform 9,12.917802023428738,77.57277712225915,6973,1362.0,0,0
 station:bapujinagar,,Mysore Road Bus Station,12.953440854009216,77.54379361867906,6974,467.0,0,0
@@ -321,12 +321,12 @@ station:bapujinagar:platform:3,,Mysore Road Bus Station - Platform 3,12.95334455
 station:jayanagar,,Jayanagara Bus Stand,12.92850690319473,77.58440162454335,6973,838.0,0,0
 station:jayanagar:platform:1,,Jayanagara Bus Stand - Platform 1,12.928469557267771,77.58443534374237,6973,834.0,0,0
 station:jayanagar:platform:2,,Jayanagara Bus Stand - Platform 2,12.928485242559685,77.5843119621277,6973,837.0,0,0
-station:jayanagar:platform:2a,,Jayanagara Bus Stand - Platform 2A,12.928456486190417,77.58457213640214,6973,832.0,0,0
-station:jayanagar:platform:3,,Jayanagara Bus Stand - Platform 3,12.928527069999976,77.5846177339554,6973,839.0,0,0
+station:jayanagar:platform:2a,,Jayanagara Bus Stand - Platform 2A,12.928456486190415,77.58457213640214,6973,832.0,0,0
+station:jayanagar:platform:3,,Jayanagara Bus Stand - Platform 3,12.928527069999975,77.5846177339554,6973,839.0,0,0
 station:jayanagar:platform:4,,Jayanagara Bus Stand - Platform 4,12.92857151164761,77.58425295352937,6973,847.0,0,0
 station:jayanagar:platform:5,,Jayanagara Bus Stand - Platform 5,12.928576740076224,77.5846016407013,6973,845.0,0,0
 station:jayanagar:platform:6,,Jayanagara Bus Stand - Platform 6,12.928461714621433,77.58401960134508,6973,837.0,0,0
-station:kuvempunagar,,Kuvempunagara Bus Stand (BTM Layout),12.915962837544727,77.61612564325334,6975,741.0,0,0
+station:kuvempunagar,,Kuvempunagara Bus Stand (BTM Layout),12.915962837544729,77.61612564325334,6975,741.0,0,0
 station:kuvempunagar:platform:25a60e164,,Kuvempunagara Bus Stand (BTM Layout) - Platform 25A/60E/164,12.9158948645401,77.6159191131592,6975,764.0,0,0
 station:kuvempunagar:platform:main,,Kuvempunagara Bus Stand (BTM Layout) - Platform Main,12.91603081054936,77.61633217334749,6975,718.0,0,0
 station:silkboard,,Central Silk Board,12.918152996524574,77.62326031923295,6975,102.0,0,0
@@ -337,12 +337,12 @@ station:silkboard:platform:1d,,Central Silk Board - Platform 1D,12.9180255482945
 station:silkboard:platform:2a,,Central Silk Board - Platform 2A,12.917931432585968,77.62349769473076,6975,99.0,0,0
 station:silkboard:platform:2b,,Central Silk Board - Platform 2B,12.918003326533226,77.62331396341325,6975,91.0,0,0
 station:silkboard:platform:2c,,Central Silk Board - Platform 2C,12.918067377486995,77.62313291430473,6975,87.0,0,0
-station:silkboard:platform:2d,,Central Silk Board - Platform 2D,12.918148421527428,77.6229438185692,6975,90.0,0,0
+station:silkboard:platform:2d,,Central Silk Board - Platform 2D,12.918148421527427,77.6229438185692,6975,90.0,0,0
 station:silkboard:platform:3a,,Central Silk Board - Platform 3A,12.918056920189551,77.62352988123895,6975,111.0,0,0
-station:silkboard:platform:3b,,Central Silk Board - Platform 3B,12.918127506938864,77.62333810329439,6975,104.0,0,0
+station:silkboard:platform:3b,,Central Silk Board - Platform 3B,12.918127506938863,77.62333810329439,6975,104.0,0,0
 station:silkboard:platform:3c,,Central Silk Board - Platform 3C,12.9181915578608,77.62316912412645,6975,101.0,0,0
 station:silkboard:platform:3d,,Central Silk Board - Platform 3D,12.918266066055438,77.6229800283909,6975,104.0,0,0
-station:silkboard:platform:4a,,Central Silk Board - Platform 4A,12.918173257599063,77.62355268001558,6975,122.0,0,0
+station:silkboard:platform:4a,,Central Silk Board - Platform 4A,12.918173257599065,77.62355268001558,6975,122.0,0,0
 station:silkboard:platform:4b,,Central Silk Board - Platform 4B,12.91823730850926,77.62339040637016,6975,117.0,0,0
 station:silkboard:platform:4c,,Central Silk Board - Platform 4C,12.918305280885802,77.62320935726167,6975,115.0,0,0
 station:silkboard:platform:4d,,Central Silk Board - Platform 4D,12.91837717472547,77.62302562594414,6975,117.0,0,0

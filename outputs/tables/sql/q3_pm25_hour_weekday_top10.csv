@@ -2,10 +2,10 @@ weekday,hour_ist,avg_pm25,n_hours
 Saturday,20,32.1,237
 Friday,20,31.8,234
 Tuesday,21,31.7,224
-Friday,21,31.6,234
 Tuesday,20,31.6,220
-Monday,21,31.3,208
-Monday,22,31.3,207
+Friday,21,31.6,234
 Saturday,21,31.3,237
+Monday,22,31.3,207
+Monday,21,31.3,208
 Tuesday,22,31.2,224
 Monday,23,30.9,208

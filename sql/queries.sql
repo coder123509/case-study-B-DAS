@@ -5,6 +5,8 @@
 -- Each query is separated by a line starting with "-- Q".
 -- =====================================================================
 
+USE monsoon_last_mile;
+
 -- Q1 (JOIN + GROUP BY) How complete is each station's hourly PM2.5 record?
 SELECT s.station_name,
        s.operator,

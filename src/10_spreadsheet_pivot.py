@@ -18,7 +18,7 @@ from pathlib import Path
 import pandas as pd
 from openpyxl import Workbook, load_workbook
 from openpyxl.formatting.rule import ColorScaleRule
-from openpyxl.styles import Alignment, Font, PatternFill
+from openpyxl.styles import Alignment, Font
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 import config as C

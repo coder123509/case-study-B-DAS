@@ -17,7 +17,6 @@ import sqlite3
 import sys
 from pathlib import Path
 
-import numpy as np
 import pandas as pd
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))

@@ -19,7 +19,6 @@ Sources (full details in docs/source_register.md):
   news     GDELT DOC 2.0 API - news headlines (JSON)
 """
 import gzip
-import io
 import json
 import sys
 import time

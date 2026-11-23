@@ -14,13 +14,13 @@ station_id,parameter,flag,n_readings
 6984,pm25,spike,13
 6974,pm25,pm25_gt_pm10,12
 6975,no2,spike,7
-6974,pm10,spike,6
 6975,pm10,spike,6
+6974,pm10,spike,6
 6973,no2,spike,5
 6973,pm10,spike,4
 6973,co,spike,3
 6974,pm25,spike,2
-6973,no2,sentinel_999,1
 6983,no2,spike,1
 6984,co,spike,1
 6984,pm10,spike,1
+6973,no2,sentinel_999,1
