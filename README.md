@@ -9,7 +9,7 @@ We joined a year of 15-minute air-quality readings from 5 government monitoring 
 the BMTC bus network, OpenStreetMap footpaths, BBMP's list of flood-prone spots, a hand-built holiday calendar
 and news headlines. Everything is from public sources and every number below can be rebuilt by running the code.
 
-GitHub repo: `https://github.com/<team>/monsoon-last-mile` _(add the link)_
+GitHub repo: https://github.com/coder123509/case-study-B-DAS.git
 
 ---
 
