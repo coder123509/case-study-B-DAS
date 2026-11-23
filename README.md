@@ -171,6 +171,65 @@ analysed are the ones committed in `data/raw/` (checksums in `data/raw_checksums
 - **Correlation, not cause:** we compare rainy and dry hours inside the same station-month-hour, which removes
   season and time-of-day effects, but other things (traffic falling during rain, wind) can still explain part of it.
 
+## Final Results
+
+Everything below comes from the files in `outputs/tables/` and `outputs/figures/`, and can be rebuilt with
+`python run_all.py`. These are descriptive results for 5 stations over 1 Mar 2025 - 28 Feb 2026, not causal claims.
+
+**Answer to our question.** Monsoon rain mostly hits the evening commute, not the morning one, and it does not
+coincide with the worst air. The stops where thin footpaths, nearby flood points and polluted air overlap most are
+around **Silk Board** and **Bapuji Nagar (Mysore Road)**.
+
+### When: rain follows the evening commute
+- In Jul-Oct, **14-19% of hours between 17:00 and 20:00 are rainy**, against about 4-6% between 08:00 and 10:00
+  (`when_windows.csv`, `fig03`). July evenings are the peak (18.5% of hours rainy).
+- About half of all May-Oct rain falls between 14:00 and 20:00.
+- Rain barely reaches the morning commute, so a rain alert is needed in the afternoon, not at dawn.
+
+### Air: rain and dirty air mostly do not overlap
+- Comparing like with like (same station, month and hour of day), rainy hours have **about 27% less PM2.5**
+  (median difference -3.7 ug/m3; 81% of the 501 comparisons are lower). NO2 barely changes (-0.25%, 51% lower),
+  so we do not claim an effect for it (`rain_effect_summary.csv`, `fig05`).
+- The highest average PM2.5 is on dry winter and post-monsoon evenings, around **20:00-22:00**
+  (peak cell: Saturday 20:00, 32.4 ug/m3; lowest: Sunday 15:00, 20.5 ug/m3) (`fig02`, pivot table).
+- The south-west monsoon is the cleanest season: 511 of 535 station-days fall in the CPCB "Good" band. Days in the
+  "Moderate" band or worse appear mainly in the north-east monsoon and winter (`pm25_daily_category_by_season.csv`).
+- Plain reading: monsoon walking risk is about water and missing footpaths. Pollution is a separate winter-evening problem.
+
+### Where: the stops that need attention first
+| Area (nearest station) | Stops | Mean priority score | Median footpath ratio within 300 m | Stops within 500 m of a flood point |
+|---|---:|---:|---:|---:|
+| Silk Board | 85 | 79.7 | 0.17 | 47 |
+| Bapuji Nagar | 62 | 72.5 | 0.00 | 22 |
+| Jayanagar 5th Block | 105 | 56.7 | 0.55 | 21 |
+| Hebbal | 39 | 48.9 | 0.43 | 17 |
+| Hombegowda Nagar | 60 | 35.3 | 0.57 | 21 |
+
+- Top busy stops: **Central Silk Board** (score 96, 6 bays, about 6,200 bus calls on a Wednesday), **Nayandahalli
+  Junction** (92), **Mysore Road Bus Station** (91) and **Mysore Road Metro Station** (90)
+  (`location_priority_ranking.csv`, `fig06`).
+- The ranking holds when we change the weights: the same 10 busy stops stay in the top 10 under two re-weightings,
+  and 8 of 10 when pollution is removed (`score_sensitivity.csv`).
+- Caution: Bapuji Nagar's footpath ratio is 0 partly because few footpaths are mapped there in OpenStreetMap. Check on the ground before spending money.
+
+### Text data: news follows the rain
+- 847 unique headlines. Waterlogging headlines move with monthly rain (**r = 0.63** over the 8 months the API
+  answered); May 2025 had the most (`fig07`, `news_vs_rain_monthly.csv`). Missing months are "no data", not zero.
+
+### Method checks
+- **SQL:** 8 queries over 9 related tables, each with JOIN and GROUP BY (`sql/queries.sql`, `outputs/tables/sql_results.txt`).
+- **Spreadsheet vs pandas:** all 168 cells of the hour-by-weekday pivot match, largest difference 0.0000 ug/m3 (`docs/pivot_comparison.md`).
+- **Cleaning:** every decision is logged in `docs/cleaning_log.md`. Faults were set to NULL, and real events (Deepavali, New Year's Eve) were kept.
+- **PySpark:** the same load, clean, hourly resample and join is in `spark/spark_resample_join.py`; row counts go to `outputs/tables/spark_row_counts.csv` once it is run.
+
+### What we recommend
+1. Footpath and drain work first at the Silk Board and Mysore Road stops listed above.
+2. Rain alerts for commuters at **15:00-17:00** on monsoon days, before the evening rush.
+3. Pollution alerts for **dry winter evenings**, as a separate programme from monsoon planning.
+
+### What these results do not show
+Cause and effect, personal exposure, or areas without a station (such as Whitefield and the north). The score is a screening tool for deciding where to look first, not a measure of danger. See [Limitations](#limitations).
+
 ## Team
 
 See [`docs/team_contribution.md`](docs/team_contribution.md). Use of generative AI is disclosed in
