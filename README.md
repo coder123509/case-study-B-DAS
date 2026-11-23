@@ -13,7 +13,7 @@ GitHub repo: https://github.com/coder123509/case-study-B-DAS.git
 
 ---
 
-## What we found (so far)
+## What we found
 
 | | Finding | Evidence |
 |---|---|---|
