@@ -9,11 +9,4 @@ The work was split in pipeline order. Each person took one stage and passed the 
 | 3 | Abhishek Varma | Story | Made the charts and the spreadsheet check, then wrote up the findings 
 
 
-## Who presents what (7 minutes)
-| Slide(s) | Presenter |
-|---|---|
-| 1-2 Answer + question | |
-| 3-4 Data & V profile | |
-| 5-6 Cleaning & pipeline | |
-| 7-9 Findings & recommendation | |
-| 10 Limits & reflection | |
+
